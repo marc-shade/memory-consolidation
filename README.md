@@ -1,6 +1,6 @@
 # Sleep-Inspired Memory Consolidation for Persistent AI Agents
 
-[![arXiv](https://img.shields.io/badge/arXiv-2024.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2024.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2025.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2025.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the code and experiments for our paper on biologically-inspired memory consolidation for AI agents.
@@ -76,11 +76,11 @@ Consolidation runs periodically (every 10 sessions) with:
 ## Citation
 
 ```bibtex
-@article{shade2024sleep,
+@article{shade2025sleep,
   title={Sleep-Inspired Memory Consolidation for Persistent AI Agents},
   author={Shade, Marc},
-  journal={arXiv preprint arXiv:2024.XXXXX},
-  year={2024}
+  journal={arXiv preprint arXiv:2025.XXXXX},
+  year={2025}
 }
 ```
 
