@@ -107,6 +107,8 @@ Recent work has demonstrated that time functions as a structural dimension rathe
 
 This suggests that the \textit{organization of information through time} may be as important as the information itself. Our ablation results support this hypothesis: the temporal structure of our memory system (multi-tier architecture + forgetting curves) drives the benefit, not specific processing features.
 
+\textbf{Concurrent work.} The Mirror Mind architecture~\citep{mirror_mind2025} from Tsinghua University independently proposes a dual manifold approach: separating individual knowledge (personal experiences) from collective knowledge (domain expertise), with graph centrality measures (PageRank, betweenness) for importance weighting. Their ``temporal distillation'' pipeline maps episodic memories to semantic concepts, aligning closely with our consolidation process. While we focus on temporal forgetting as the core mechanism, Mirror Mind emphasizes geometric structure---both approaches validate that \textit{architectural organization}, not specific features, drives memory effectiveness.
+
 \section{Method}
 
 \subsection{Multi-Tier Memory Architecture}
@@ -308,6 +310,7 @@ Our finding that temporal structure matters more than specific features has impl
     \item \textbf{Cross-domain validation}: Test on different task domains (research, writing, analysis)
     \item \textbf{Consolidation scheduling}: Optimize when and how often to consolidate
     \item \textbf{Multi-agent consolidation}: Shared semantic memory across agent teams
+    \item \textbf{Dual manifold integration}: We have implemented Mirror Mind-inspired features (centrality scoring, cognitive trajectories, dual manifold architecture) in our production system; formal evaluation of their combined benefit with temporal forgetting is ongoing
 \end{itemize}
 
 \section{Conclusion}
