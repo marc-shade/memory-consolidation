@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Statistical comparison of memory consolidation vs.\ flat memory baseline.
+Long-horizon experiment with 60 sessions (900 tasks per agent) using 10 independent runs.
+Significance tested using Welch's t-test at $\alpha = 0.05$.}
+\label{tab:statistical_results}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+& Flat Memory & Consolidation \\
+\midrule
+Mean Success Rate & 48.9\% & \textbf{51.2\%} \\
+Standard Deviation & 1.4\% & 1.5\% \\
+95\% CI & [47.9\%, 50.0\%] & [50.2\%, 52.3\%] \\
+\midrule
+\multicolumn{3}{c}{\textbf{Statistical Test}} \\
+\midrule
+t-statistic & \multicolumn{2}{c}{3.52} \\
+p-value & \multicolumn{2}{c}{0.0025**} \\
+Cohen's d & \multicolumn{2}{c}{1.57 (large)} \\
+\midrule
+Absolute Improvement & \multicolumn{2}{c}{\textbf{+2.3\%}} \\
+Relative Improvement & \multicolumn{2}{c}{+4.7\%} \\
+\bottomrule
+\end{tabular}
+\end{table}

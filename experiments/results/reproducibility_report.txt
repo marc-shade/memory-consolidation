@@ -1,0 +1,44 @@
+======================================================================
+REPRODUCIBILITY REPORT
+======================================================================
+
+To reproduce this experiment, use the following configuration:
+
+```python
+from rigorous_experiment import ExperimentConfig, run_rigorous_experiment
+
+config = ExperimentConfig(
+    experiment_name="consolidation_vs_flat",
+    experiment_version="1.0.0",
+    base_seed=42,
+    num_seeds=10,
+    num_sessions=30,
+    tasks_per_session=15,
+    consolidation_interval=3,
+    forgetting_threshold=0.4,
+    decay_rate_base=0.6,
+    semantic_boost=1.3,
+    procedural_boost=1.4,
+    recurring_pattern_prob=0.3,
+    embedding_server="http://192.168.1.186:11434",
+    embedding_model="qwen3-embedding:8b-fp16",
+    llm_model="mistral:7b-instruct-v0.3-fp16",
+    use_llm_summaries=True,
+    use_llm_evaluation=True,
+    max_workers=4,
+    confidence_level=0.95,
+)
+
+results = run_rigorous_experiment(config)
+```
+
+Configuration Hash: 496ebb7abcc03b31
+Timestamp: 2025-11-26T22:06:41.044704
+
+Expected Results:
+  Flat Memory: 0.5618 ± 0.1028
+  Consolidation: 0.5738 ± 0.1165
+  p-value: 0.809851
+  Effect size: 0.1092
+
+======================================================================

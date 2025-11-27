@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Comparison of memory agent types. Best results in \textbf{bold}.}
+\label{tab:main_results}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Metric & ConsolidationAgent & FlatMemoryAgent & RAGOnlyAgent \\
+\midrule
+Success Rate (\%) & \textbf{81.3%} & 81.3% & 81.3% \\
+Precision@5 & \textbf{0.0%} & 0.0% & 0.0% \\
+Latency (ms) & 597.6 & 22.2 & \textbf{20.9} \\
+Memory (KB) & \textbf{0.0} & 83.0 & 0.0 \\
+Learning Slope & \textbf{-0.023} & -0.023 & -0.023 \\
+Coherence & \textbf{100.0%} & 100.0% & 100.0% \\
+\bottomrule
+\end{tabular}
+\end{table}

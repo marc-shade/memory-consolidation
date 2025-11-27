@@ -1,0 +1,1826 @@
+{
+  "experiment_id": "exp1_consolidation_flat_memory_seed1_seed1",
+  "agent_type": "FlatMemoryAgent",
+  "start_time": "2025-11-26T19:20:04.651279",
+  "end_time": "2025-11-26T19:20:08.648899",
+  "sessions": [
+    {
+      "session_id": 1,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.8325914815618054,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 8539,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 2,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 1.0177960874286258,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 17025,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 3,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.9621678708534744,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 25469,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 4,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.847633177437028,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 33946,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 5,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.6686875159637656,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 42455,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 6,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.7625238805284036,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 50879,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 7,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.666756275352769,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 59363,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 8,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.894429261343474,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 67897,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 9,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 1,
+      "avg_success_score": 0.4361189993633537,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 76437,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 10,
+      "agent_type": "FlatMemoryAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.8067728661100739,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 85024,
+      "coherence_score": 1.0
+    }
+  ],
+  "task_results": [
+    {
+      "task_id": "task_0001",
+      "session_id": 1,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0694867473874465,
+      "execution_time_ms": 0.0050067901611328125,
+      "retrieval_results": {
+        "retrieval_time_ms": 0.0050067901611328125,
+        "memories_retrieved": 0,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 1,
+        "total_content_chars": 166,
+        "embedding_size_bytes": 1536,
+        "total_size_bytes": 1702,
+        "avg_memory_length": 166.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.385794"
+    },
+    {
+      "task_id": "task_0002",
+      "session_id": 1,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.7388669925873699,
+      "execution_time_ms": 24.766921997070312,
+      "retrieval_results": {
+        "retrieval_time_ms": 24.766921997070312,
+        "memories_retrieved": 1,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 2,
+        "total_content_chars": 332,
+        "embedding_size_bytes": 3072,
+        "total_size_bytes": 3404,
+        "avg_memory_length": 166.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.452814"
+    },
+    {
+      "task_id": "task_0003",
+      "session_id": 1,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0303185945445525,
+      "execution_time_ms": 19.298553466796875,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.298553466796875,
+        "memories_retrieved": 2,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 3,
+        "total_content_chars": 496,
+        "embedding_size_bytes": 4608,
+        "total_size_bytes": 5104,
+        "avg_memory_length": 165.33333333333334,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.507859"
+    },
+    {
+      "task_id": "task_0004",
+      "session_id": 1,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.7980570650438636,
+      "execution_time_ms": 36.926984786987305,
+      "retrieval_results": {
+        "retrieval_time_ms": 36.926984786987305,
+        "memories_retrieved": 3,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 4,
+        "total_content_chars": 704,
+        "embedding_size_bytes": 6144,
+        "total_size_bytes": 6848,
+        "avg_memory_length": 176.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.590010"
+    },
+    {
+      "task_id": "task_0005",
+      "session_id": 1,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.5262280082457942,
+      "execution_time_ms": 23.589134216308594,
+      "retrieval_results": {
+        "retrieval_time_ms": 23.589134216308594,
+        "memories_retrieved": 4,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 5,
+        "total_content_chars": 859,
+        "embedding_size_bytes": 7680,
+        "total_size_bytes": 8539,
+        "avg_memory_length": 171.8,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.659655"
+    },
+    {
+      "task_id": "task_0006",
+      "session_id": 2,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0603652733992968,
+      "execution_time_ms": 21.503686904907227,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.503686904907227,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 6,
+        "total_content_chars": 1029,
+        "embedding_size_bytes": 9216,
+        "total_size_bytes": 10245,
+        "avg_memory_length": 171.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.719614"
+    },
+    {
+      "task_id": "task_0007",
+      "session_id": 2,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0802854915222968,
+      "execution_time_ms": 18.822431564331055,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.822431564331055,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 7,
+        "total_content_chars": 1185,
+        "embedding_size_bytes": 10752,
+        "total_size_bytes": 11937,
+        "avg_memory_length": 169.28571428571428,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.790344"
+    },
+    {
+      "task_id": "task_0008",
+      "session_id": 2,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9269183043945897,
+      "execution_time_ms": 21.87490463256836,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.87490463256836,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 8,
+        "total_content_chars": 1364,
+        "embedding_size_bytes": 12288,
+        "total_size_bytes": 13652,
+        "avg_memory_length": 170.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.864320"
+    },
+    {
+      "task_id": "task_0009",
+      "session_id": 2,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9762408475376425,
+      "execution_time_ms": 19.812345504760742,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.812345504760742,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 9,
+        "total_content_chars": 1528,
+        "embedding_size_bytes": 13824,
+        "total_size_bytes": 15352,
+        "avg_memory_length": 169.77777777777777,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.921056"
+    },
+    {
+      "task_id": "task_0010",
+      "session_id": 2,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0451705202893031,
+      "execution_time_ms": 22.02153205871582,
+      "retrieval_results": {
+        "retrieval_time_ms": 22.02153205871582,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 10,
+        "total_content_chars": 1665,
+        "embedding_size_bytes": 15360,
+        "total_size_bytes": 17025,
+        "avg_memory_length": 166.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:05.988183"
+    },
+    {
+      "task_id": "task_0011",
+      "session_id": 3,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.8702667230317739,
+      "execution_time_ms": 33.952951431274414,
+      "retrieval_results": {
+        "retrieval_time_ms": 33.952951431274414,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 11,
+        "total_content_chars": 1810,
+        "embedding_size_bytes": 16896,
+        "total_size_bytes": 18706,
+        "avg_memory_length": 164.54545454545453,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.063192"
+    },
+    {
+      "task_id": "task_0012",
+      "session_id": 3,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9461733083081969,
+      "execution_time_ms": 21.820068359375,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.820068359375,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 12,
+        "total_content_chars": 1993,
+        "embedding_size_bytes": 18432,
+        "total_size_bytes": 20425,
+        "avg_memory_length": 166.08333333333334,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.131402"
+    },
+    {
+      "task_id": "task_0013",
+      "session_id": 3,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0904488910582388,
+      "execution_time_ms": 17.174482345581055,
+      "retrieval_results": {
+        "retrieval_time_ms": 17.174482345581055,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 13,
+        "total_content_chars": 2124,
+        "embedding_size_bytes": 19968,
+        "total_size_bytes": 22092,
+        "avg_memory_length": 163.3846153846154,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.188451"
+    },
+    {
+      "task_id": "task_0014",
+      "session_id": 3,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0832539671010588,
+      "execution_time_ms": 25.099754333496094,
+      "retrieval_results": {
+        "retrieval_time_ms": 25.099754333496094,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 14,
+        "total_content_chars": 2279,
+        "embedding_size_bytes": 21504,
+        "total_size_bytes": 23783,
+        "avg_memory_length": 162.78571428571428,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.256302"
+    },
+    {
+      "task_id": "task_0015",
+      "session_id": 3,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.8206964647681039,
+      "execution_time_ms": 21.860837936401367,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.860837936401367,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 15,
+        "total_content_chars": 2429,
+        "embedding_size_bytes": 23040,
+        "total_size_bytes": 25469,
+        "avg_memory_length": 161.93333333333334,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.320627"
+    },
+    {
+      "task_id": "task_0016",
+      "session_id": 4,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9665390370720258,
+      "execution_time_ms": 20.249605178833008,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.249605178833008,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 16,
+        "total_content_chars": 2583,
+        "embedding_size_bytes": 24576,
+        "total_size_bytes": 27159,
+        "avg_memory_length": 161.4375,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.395099"
+    },
+    {
+      "task_id": "task_0017",
+      "session_id": 4,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.42500000000000004,
+      "execution_time_ms": 27.677059173583984,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.677059173583984,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 0.8500000000000001,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 17,
+        "total_content_chars": 2754,
+        "embedding_size_bytes": 26112,
+        "total_size_bytes": 28866,
+        "avg_memory_length": 162.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.462659"
+    },
+    {
+      "task_id": "task_0018",
+      "session_id": 4,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9844213999922831,
+      "execution_time_ms": 18.56064796447754,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.56064796447754,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 18,
+        "total_content_chars": 2904,
+        "embedding_size_bytes": 27648,
+        "total_size_bytes": 30552,
+        "avg_memory_length": 161.33333333333334,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.517319"
+    },
+    {
+      "task_id": "task_0019",
+      "session_id": 4,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.8611486860049107,
+      "execution_time_ms": 19.977092742919922,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.977092742919922,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 19,
+        "total_content_chars": 3066,
+        "embedding_size_bytes": 29184,
+        "total_size_bytes": 32250,
+        "avg_memory_length": 161.3684210526316,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.585546"
+    },
+    {
+      "task_id": "task_0020",
+      "session_id": 4,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.00105676411592,
+      "execution_time_ms": 33.852577209472656,
+      "retrieval_results": {
+        "retrieval_time_ms": 33.852577209472656,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 20,
+        "total_content_chars": 3226,
+        "embedding_size_bytes": 30720,
+        "total_size_bytes": 33946,
+        "avg_memory_length": 161.3,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.662373"
+    },
+    {
+      "task_id": "task_0021",
+      "session_id": 5,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.5243730655293198,
+      "execution_time_ms": 24.982452392578125,
+      "retrieval_results": {
+        "retrieval_time_ms": 24.982452392578125,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 21,
+        "total_content_chars": 3396,
+        "embedding_size_bytes": 32256,
+        "total_size_bytes": 35652,
+        "avg_memory_length": 161.71428571428572,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.746010"
+    },
+    {
+      "task_id": "task_0022",
+      "session_id": 5,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.5140308141736957,
+      "execution_time_ms": 19.00339126586914,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.00339126586914,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 22,
+        "total_content_chars": 3532,
+        "embedding_size_bytes": 33792,
+        "total_size_bytes": 37324,
+        "avg_memory_length": 160.54545454545453,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.803356"
+    },
+    {
+      "task_id": "task_0023",
+      "session_id": 5,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9496507769927939,
+      "execution_time_ms": 25.870323181152344,
+      "retrieval_results": {
+        "retrieval_time_ms": 25.870323181152344,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 23,
+        "total_content_chars": 3665,
+        "embedding_size_bytes": 35328,
+        "total_size_bytes": 38993,
+        "avg_memory_length": 159.34782608695653,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.868726"
+    },
+    {
+      "task_id": "task_0024",
+      "session_id": 5,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.8890130934080214,
+      "execution_time_ms": 26.944875717163086,
+      "retrieval_results": {
+        "retrieval_time_ms": 26.944875717163086,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 24,
+        "total_content_chars": 3879,
+        "embedding_size_bytes": 36864,
+        "total_size_bytes": 40743,
+        "avg_memory_length": 161.625,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:06.947055"
+    },
+    {
+      "task_id": "task_0025",
+      "session_id": 5,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.4663698297149974,
+      "execution_time_ms": 20.082950592041016,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.082950592041016,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 25,
+        "total_content_chars": 4055,
+        "embedding_size_bytes": 38400,
+        "total_size_bytes": 42455,
+        "avg_memory_length": 162.2,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.008121"
+    },
+    {
+      "task_id": "task_0026",
+      "session_id": 6,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.4982532460363598,
+      "execution_time_ms": 24.90973472595215,
+      "retrieval_results": {
+        "retrieval_time_ms": 24.90973472595215,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 26,
+        "total_content_chars": 4198,
+        "embedding_size_bytes": 39936,
+        "total_size_bytes": 44134,
+        "avg_memory_length": 161.46153846153845,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.094543"
+    },
+    {
+      "task_id": "task_0027",
+      "session_id": 6,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9626942834032609,
+      "execution_time_ms": 21.570682525634766,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.570682525634766,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 27,
+        "total_content_chars": 4343,
+        "embedding_size_bytes": 41472,
+        "total_size_bytes": 45815,
+        "avg_memory_length": 160.85185185185185,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.157844"
+    },
+    {
+      "task_id": "task_0028",
+      "session_id": 6,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.685103956092908,
+      "execution_time_ms": 19.29759979248047,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.29759979248047,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.7,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 28,
+        "total_content_chars": 4498,
+        "embedding_size_bytes": 43008,
+        "total_size_bytes": 47506,
+        "avg_memory_length": 160.64285714285714,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.217883"
+    },
+    {
+      "task_id": "task_0029",
+      "session_id": 6,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.709040601904031,
+      "execution_time_ms": 20.80512046813965,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.80512046813965,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.75,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 29,
+        "total_content_chars": 4654,
+        "embedding_size_bytes": 44544,
+        "total_size_bytes": 49198,
+        "avg_memory_length": 160.48275862068965,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.285201"
+    },
+    {
+      "task_id": "task_0030",
+      "session_id": 6,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9575273152054581,
+      "execution_time_ms": 27.042150497436523,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.042150497436523,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 30,
+        "total_content_chars": 4799,
+        "embedding_size_bytes": 46080,
+        "total_size_bytes": 50879,
+        "avg_memory_length": 159.96666666666667,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.349604"
+    },
+    {
+      "task_id": "task_0031",
+      "session_id": 7,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.4843825891259815,
+      "execution_time_ms": 18.570423126220703,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.570423126220703,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 31,
+        "total_content_chars": 4947,
+        "embedding_size_bytes": 47616,
+        "total_size_bytes": 52563,
+        "avg_memory_length": 159.58064516129033,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.404867"
+    },
+    {
+      "task_id": "task_0032",
+      "session_id": 7,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0278534530189865,
+      "execution_time_ms": 26.216983795166016,
+      "retrieval_results": {
+        "retrieval_time_ms": 26.216983795166016,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 32,
+        "total_content_chars": 5099,
+        "embedding_size_bytes": 49152,
+        "total_size_bytes": 54251,
+        "avg_memory_length": 159.34375,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.466093"
+    },
+    {
+      "task_id": "task_0033",
+      "session_id": 7,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9822809306628408,
+      "execution_time_ms": 19.992351531982422,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.992351531982422,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 33,
+        "total_content_chars": 5243,
+        "embedding_size_bytes": 50688,
+        "total_size_bytes": 55931,
+        "avg_memory_length": 158.87878787878788,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.523582"
+    },
+    {
+      "task_id": "task_0034",
+      "session_id": 7,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.5892644039560367,
+      "execution_time_ms": 26.12781524658203,
+      "retrieval_results": {
+        "retrieval_time_ms": 26.12781524658203,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 34,
+        "total_content_chars": 5457,
+        "embedding_size_bytes": 52224,
+        "total_size_bytes": 57681,
+        "avg_memory_length": 160.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.593116"
+    },
+    {
+      "task_id": "task_0035",
+      "session_id": 7,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 20.192861557006836,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.192861557006836,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 35,
+        "total_content_chars": 5603,
+        "embedding_size_bytes": 53760,
+        "total_size_bytes": 59363,
+        "avg_memory_length": 160.0857142857143,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.650206"
+    },
+    {
+      "task_id": "task_0036",
+      "session_id": 8,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9410970515401522,
+      "execution_time_ms": 19.358158111572266,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.358158111572266,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 36,
+        "total_content_chars": 5737,
+        "embedding_size_bytes": 55296,
+        "total_size_bytes": 61033,
+        "avg_memory_length": 159.36111111111111,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.706077"
+    },
+    {
+      "task_id": "task_0037",
+      "session_id": 8,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9729472094327202,
+      "execution_time_ms": 19.345998764038086,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.345998764038086,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 37,
+        "total_content_chars": 5882,
+        "embedding_size_bytes": 56832,
+        "total_size_bytes": 62714,
+        "avg_memory_length": 158.97297297297297,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.763134"
+    },
+    {
+      "task_id": "task_0038",
+      "session_id": 8,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.5505192514171751,
+      "execution_time_ms": 21.512508392333984,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.512508392333984,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 38,
+        "total_content_chars": 6022,
+        "embedding_size_bytes": 58368,
+        "total_size_bytes": 64390,
+        "avg_memory_length": 158.47368421052633,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.821641"
+    },
+    {
+      "task_id": "task_0039",
+      "session_id": 8,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9828849037678211,
+      "execution_time_ms": 27.446269989013672,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.446269989013672,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 39,
+        "total_content_chars": 6242,
+        "embedding_size_bytes": 59904,
+        "total_size_bytes": 66146,
+        "avg_memory_length": 160.05128205128204,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.893898"
+    },
+    {
+      "task_id": "task_0040",
+      "session_id": 8,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.024697890559501,
+      "execution_time_ms": 27.989625930786133,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.989625930786133,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.1,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 40,
+        "total_content_chars": 6457,
+        "embedding_size_bytes": 61440,
+        "total_size_bytes": 67897,
+        "avg_memory_length": 161.425,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:07.967861"
+    },
+    {
+      "task_id": "task_0041",
+      "session_id": 9,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.9055949968167685,
+      "execution_time_ms": 20.643949508666992,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.643949508666992,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.15000000000000002,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 41,
+        "total_content_chars": 6640,
+        "embedding_size_bytes": 62976,
+        "total_size_bytes": 69616,
+        "avg_memory_length": 161.9512195121951,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.030734"
+    },
+    {
+      "task_id": "task_0042",
+      "session_id": 9,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.3,
+      "execution_time_ms": 20.828962326049805,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.828962326049805,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.1,
+        "final_probability": 0.6,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 42,
+        "total_content_chars": 6803,
+        "embedding_size_bytes": 64512,
+        "total_size_bytes": 71315,
+        "avg_memory_length": 161.97619047619048,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.093565"
+    },
+    {
+      "task_id": "task_0043",
+      "session_id": 9,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 27.199745178222656,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.199745178222656,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 43,
+        "total_content_chars": 6978,
+        "embedding_size_bytes": 66048,
+        "total_size_bytes": 73026,
+        "avg_memory_length": 162.27906976744185,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.162315"
+    },
+    {
+      "task_id": "task_0044",
+      "session_id": 9,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.375,
+      "execution_time_ms": 19.585847854614258,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.585847854614258,
+        "memories_retrieved": 5,
+        "context_required": 6,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.75,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 44,
+        "total_content_chars": 7139,
+        "embedding_size_bytes": 67584,
+        "total_size_bytes": 74723,
+        "avg_memory_length": 162.25,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.218458"
+    },
+    {
+      "task_id": "task_0045",
+      "session_id": 9,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.35,
+      "execution_time_ms": 20.618438720703125,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.618438720703125,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0,
+        "final_probability": 0.7,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 45,
+        "total_content_chars": 7317,
+        "embedding_size_bytes": 69120,
+        "total_size_bytes": 76437,
+        "avg_memory_length": 162.6,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.281936"
+    },
+    {
+      "task_id": "task_0046",
+      "session_id": 10,
+      "agent_type": "FlatMemoryAgent",
+      "success": false,
+      "success_score": 0.4,
+      "execution_time_ms": 27.04620361328125,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.04620361328125,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 46,
+        "total_content_chars": 7524,
+        "embedding_size_bytes": 70656,
+        "total_size_bytes": 78180,
+        "avg_memory_length": 163.56521739130434,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.357793"
+    },
+    {
+      "task_id": "task_0047",
+      "session_id": 10,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0736156180749694,
+      "execution_time_ms": 22.883176803588867,
+      "retrieval_results": {
+        "retrieval_time_ms": 22.883176803588867,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.1,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 47,
+        "total_content_chars": 7672,
+        "embedding_size_bytes": 72192,
+        "total_size_bytes": 79864,
+        "avg_memory_length": 163.2340425531915,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.421386"
+    },
+    {
+      "task_id": "task_0048",
+      "session_id": 10,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0511173550504398,
+      "execution_time_ms": 28.692960739135742,
+      "retrieval_results": {
+        "retrieval_time_ms": 28.692960739135742,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 48,
+        "total_content_chars": 7840,
+        "embedding_size_bytes": 73728,
+        "total_size_bytes": 81568,
+        "avg_memory_length": 163.33333333333334,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.493225"
+    },
+    {
+      "task_id": "task_0049",
+      "session_id": 10,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 1.0064846657865674,
+      "execution_time_ms": 29.985666275024414,
+      "retrieval_results": {
+        "retrieval_time_ms": 29.985666275024414,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 49,
+        "total_content_chars": 8052,
+        "embedding_size_bytes": 75264,
+        "total_size_bytes": 83316,
+        "avg_memory_length": 164.3265306122449,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.569865"
+    },
+    {
+      "task_id": "task_0050",
+      "session_id": 10,
+      "agent_type": "FlatMemoryAgent",
+      "success": true,
+      "success_score": 0.5026466916383933,
+      "execution_time_ms": 20.916461944580078,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.916461944580078,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "flat_memory",
+        "total_memories": 50,
+        "total_content_chars": 8224,
+        "embedding_size_bytes": 76800,
+        "total_size_bytes": 85024,
+        "avg_memory_length": 164.48,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "flat"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:08.630534"
+    }
+  ],
+  "overall_success_rate": 0.86,
+  "avg_retrieval_precision": 0.0,
+  "avg_retrieval_latency_ms": 22.89020538330078,
+  "total_memory_size": 85024,
+  "learning_curve_slope": -0.030858148756125022,
+  "cross_session_coherence": 1.0
+}

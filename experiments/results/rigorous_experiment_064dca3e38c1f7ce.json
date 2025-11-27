@@ -1,0 +1,2470 @@
+{
+  "config": {
+    "experiment_name": "consolidation_vs_flat",
+    "experiment_version": "1.0.0",
+    "base_seed": 42,
+    "num_seeds": 10,
+    "num_sessions": 30,
+    "tasks_per_session": 15,
+    "consolidation_interval": 3,
+    "forgetting_threshold": 0.3,
+    "decay_rate_base": 0.8,
+    "semantic_boost": 1.3,
+    "procedural_boost": 1.4,
+    "recurring_pattern_prob": 0.3,
+    "embedding_server": "http://192.168.1.186:11434",
+    "embedding_model": "nomic-embed-text",
+    "max_workers": 4,
+    "confidence_level": 0.95
+  },
+  "config_hash": "064dca3e38c1f7ce",
+  "timestamp": "2025-11-26T19:44:15.415646",
+  "flat_results": [
+    {
+      "seed": 43,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8355555555555556,
+      "avg_retrieval_score": 0.8218975718987865,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.7333333333333333,
+        0.6666666666666666,
+        0.7333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.8,
+        0.8,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.8,
+        0.8,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        0.5333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8,
+        0.6,
+        0.8,
+        0.6,
+        0.8
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 42,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8266666666666667,
+      "avg_retrieval_score": 0.820102342158544,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.8,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.8666666666666667,
+        1.0,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.6666666666666666,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.6666666666666666,
+        0.8,
+        0.6666666666666666,
+        0.8,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8,
+        0.8666666666666667,
+        0.8,
+        0.9333333333333333
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8333333333333334,
+      "avg_retrieval_score": 0.820381972797161,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.5333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8,
+        0.6666666666666666,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.8,
+        0.8,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.6
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 45,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8422222222222222,
+      "avg_retrieval_score": 0.8203347768416914,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.6,
+        1.0,
+        0.8666666666666667,
+        0.8,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.8,
+        0.8,
+        0.6666666666666666,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.6666666666666666,
+        0.9333333333333333,
+        0.8666666666666667
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 46,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8511111111111112,
+      "avg_retrieval_score": 0.8197654251191663,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.7333333333333333,
+        0.8,
+        0.9333333333333333,
+        0.6666666666666666,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8666666666666667
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 47,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8244444444444444,
+      "avg_retrieval_score": 0.8208126373725566,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.8,
+        0.8666666666666667,
+        0.8,
+        0.8,
+        0.7333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.8,
+        1.0,
+        0.8,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.6666666666666666,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.8,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.6,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8,
+        0.7333333333333333,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 48,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8266666666666667,
+      "avg_retrieval_score": 0.8188909627551573,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8,
+        0.7333333333333333,
+        0.8,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.6666666666666666,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.6666666666666666,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.6666666666666666,
+        0.8,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8,
+        1.0,
+        0.7333333333333333,
+        0.8
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 49,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8133333333333334,
+      "avg_retrieval_score": 0.8218594011526786,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.8666666666666667,
+        0.8,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.8,
+        0.8666666666666667,
+        0.5333333333333333,
+        0.8666666666666667,
+        0.6666666666666666,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.4666666666666667,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.5333333333333333,
+        0.8,
+        1.0
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 50,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.7911111111111111,
+      "avg_retrieval_score": 0.8153319679200824,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.6666666666666666,
+        0.7333333333333333,
+        0.6666666666666666,
+        0.8,
+        0.9333333333333333,
+        0.6666666666666666,
+        0.6,
+        0.8,
+        0.7333333333333333,
+        0.9333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.8,
+        0.8,
+        0.6666666666666666,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.7333333333333333,
+        0.6666666666666666,
+        0.9333333333333333
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    },
+    {
+      "seed": 51,
+      "agent_type": "FlatMemoryAgent",
+      "overall_success_rate": 0.8311111111111111,
+      "avg_retrieval_score": 0.8175020324336131,
+      "final_memory_count": 450,
+      "final_episodic": 450,
+      "final_semantic": 0,
+      "final_procedural": 0,
+      "session_success_rates": [
+        0.8,
+        0.8666666666666667,
+        0.8,
+        0.8,
+        0.7333333333333333,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8,
+        1.0,
+        0.6666666666666666,
+        0.8666666666666667,
+        0.8,
+        0.8,
+        0.9333333333333333,
+        0.8,
+        0.6666666666666666,
+        0.8,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8,
+        0.7333333333333333,
+        0.8,
+        0.6666666666666666,
+        0.7333333333333333
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": false,
+          "total_memories": 45
+        },
+        {
+          "consolidated": false,
+          "total_memories": 90
+        },
+        {
+          "consolidated": false,
+          "total_memories": 135
+        },
+        {
+          "consolidated": false,
+          "total_memories": 180
+        },
+        {
+          "consolidated": false,
+          "total_memories": 225
+        },
+        {
+          "consolidated": false,
+          "total_memories": 270
+        },
+        {
+          "consolidated": false,
+          "total_memories": 315
+        },
+        {
+          "consolidated": false,
+          "total_memories": 360
+        },
+        {
+          "consolidated": false,
+          "total_memories": 405
+        },
+        {
+          "consolidated": false,
+          "total_memories": 450
+        }
+      ]
+    }
+  ],
+  "consolidation_results": [
+    {
+      "seed": 43,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9511111111111111,
+      "avg_retrieval_score": 0.94157833400703,
+      "final_memory_count": 539,
+      "final_episodic": 413,
+      "final_semantic": 75,
+      "final_procedural": 51,
+      "session_success_rates": [
+        0.7333333333333333,
+        0.6666666666666666,
+        0.7333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        0.8666666666666667,
+        1.0
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 16,
+          "procedures_learned": 7,
+          "memories_after": 45,
+          "total_semantic": 16,
+          "total_procedural": 7
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 11,
+          "memories_after": 90,
+          "total_semantic": 23,
+          "total_procedural": 18
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 4,
+          "memories_after": 135,
+          "total_semantic": 31,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 9,
+          "procedures_learned": 2,
+          "memories_after": 180,
+          "total_semantic": 40,
+          "total_procedural": 24
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 3,
+          "memories_after": 225,
+          "total_semantic": 45,
+          "total_procedural": 27
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 2,
+          "memories_after": 270,
+          "total_semantic": 51,
+          "total_procedural": 29
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 4,
+          "memories_after": 315,
+          "total_semantic": 61,
+          "total_procedural": 33
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 4,
+          "concepts_extracted": 7,
+          "procedures_learned": 8,
+          "memories_after": 356,
+          "total_semantic": 68,
+          "total_procedural": 41
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 401,
+          "memories_forgotten": 15,
+          "concepts_extracted": 3,
+          "procedures_learned": 5,
+          "memories_after": 386,
+          "total_semantic": 71,
+          "total_procedural": 46
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 431,
+          "memories_forgotten": 18,
+          "concepts_extracted": 4,
+          "procedures_learned": 5,
+          "memories_after": 413,
+          "total_semantic": 75,
+          "total_procedural": 51
+        }
+      ]
+    },
+    {
+      "seed": 42,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9333333333333333,
+      "avg_retrieval_score": 0.9381797853844863,
+      "final_memory_count": 531,
+      "final_episodic": 405,
+      "final_semantic": 81,
+      "final_procedural": 45,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.8,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.8,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 17,
+          "procedures_learned": 6,
+          "memories_after": 45,
+          "total_semantic": 17,
+          "total_procedural": 6
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 11,
+          "memories_after": 90,
+          "total_semantic": 24,
+          "total_procedural": 17
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 3,
+          "memories_after": 135,
+          "total_semantic": 32,
+          "total_procedural": 20
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 2,
+          "memories_after": 180,
+          "total_semantic": 38,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 12,
+          "procedures_learned": 2,
+          "memories_after": 225,
+          "total_semantic": 50,
+          "total_procedural": 24
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 3,
+          "memories_after": 270,
+          "total_semantic": 55,
+          "total_procedural": 27
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 11,
+          "procedures_learned": 4,
+          "memories_after": 315,
+          "total_semantic": 66,
+          "total_procedural": 31
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 5,
+          "concepts_extracted": 8,
+          "procedures_learned": 5,
+          "memories_after": 355,
+          "total_semantic": 74,
+          "total_procedural": 36
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 400,
+          "memories_forgotten": 17,
+          "concepts_extracted": 4,
+          "procedures_learned": 5,
+          "memories_after": 383,
+          "total_semantic": 78,
+          "total_procedural": 41
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 428,
+          "memories_forgotten": 23,
+          "concepts_extracted": 3,
+          "procedures_learned": 4,
+          "memories_after": 405,
+          "total_semantic": 81,
+          "total_procedural": 45
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9355555555555556,
+      "avg_retrieval_score": 0.9417752545791401,
+      "final_memory_count": 541,
+      "final_episodic": 416,
+      "final_semantic": 78,
+      "final_procedural": 47,
+      "session_success_rates": [
+        0.5333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 16,
+          "procedures_learned": 8,
+          "memories_after": 45,
+          "total_semantic": 16,
+          "total_procedural": 8
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 9,
+          "memories_after": 90,
+          "total_semantic": 24,
+          "total_procedural": 17
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 4,
+          "memories_after": 135,
+          "total_semantic": 29,
+          "total_procedural": 21
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 0,
+          "memories_after": 180,
+          "total_semantic": 39,
+          "total_procedural": 21
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 11,
+          "procedures_learned": 2,
+          "memories_after": 225,
+          "total_semantic": 50,
+          "total_procedural": 23
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 5,
+          "memories_after": 270,
+          "total_semantic": 57,
+          "total_procedural": 28
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 1,
+          "procedures_learned": 12,
+          "memories_after": 315,
+          "total_semantic": 58,
+          "total_procedural": 40
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 2,
+          "memories_after": 360,
+          "total_semantic": 66,
+          "total_procedural": 42
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 405,
+          "memories_forgotten": 17,
+          "concepts_extracted": 6,
+          "procedures_learned": 3,
+          "memories_after": 388,
+          "total_semantic": 72,
+          "total_procedural": 45
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 433,
+          "memories_forgotten": 17,
+          "concepts_extracted": 6,
+          "procedures_learned": 2,
+          "memories_after": 416,
+          "total_semantic": 78,
+          "total_procedural": 47
+        }
+      ]
+    },
+    {
+      "seed": 45,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9355555555555556,
+      "avg_retrieval_score": 0.9444751113059995,
+      "final_memory_count": 545,
+      "final_episodic": 416,
+      "final_semantic": 73,
+      "final_procedural": 56,
+      "session_success_rates": [
+        0.6,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        0.8666666666666667
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 16,
+          "procedures_learned": 9,
+          "memories_after": 45,
+          "total_semantic": 16,
+          "total_procedural": 9
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 11,
+          "procedures_learned": 8,
+          "memories_after": 90,
+          "total_semantic": 27,
+          "total_procedural": 17
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 4,
+          "memories_after": 135,
+          "total_semantic": 33,
+          "total_procedural": 21
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 12,
+          "procedures_learned": 1,
+          "memories_after": 180,
+          "total_semantic": 45,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 7,
+          "memories_after": 225,
+          "total_semantic": 53,
+          "total_procedural": 29
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 5,
+          "memories_after": 270,
+          "total_semantic": 59,
+          "total_procedural": 34
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 4,
+          "memories_after": 315,
+          "total_semantic": 66,
+          "total_procedural": 38
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 4,
+          "concepts_extracted": 1,
+          "procedures_learned": 8,
+          "memories_after": 356,
+          "total_semantic": 67,
+          "total_procedural": 46
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 401,
+          "memories_forgotten": 11,
+          "concepts_extracted": 3,
+          "procedures_learned": 8,
+          "memories_after": 390,
+          "total_semantic": 70,
+          "total_procedural": 54
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 435,
+          "memories_forgotten": 19,
+          "concepts_extracted": 3,
+          "procedures_learned": 2,
+          "memories_after": 416,
+          "total_semantic": 73,
+          "total_procedural": 56
+        }
+      ]
+    },
+    {
+      "seed": 46,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9488888888888889,
+      "avg_retrieval_score": 0.9373397301696506,
+      "final_memory_count": 544,
+      "final_episodic": 423,
+      "final_semantic": 75,
+      "final_procedural": 46,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.9333333333333333
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 17,
+          "procedures_learned": 7,
+          "memories_after": 45,
+          "total_semantic": 17,
+          "total_procedural": 7
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 11,
+          "memories_after": 90,
+          "total_semantic": 23,
+          "total_procedural": 18
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 2,
+          "memories_after": 135,
+          "total_semantic": 28,
+          "total_procedural": 20
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 2,
+          "memories_after": 180,
+          "total_semantic": 35,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 12,
+          "procedures_learned": 2,
+          "memories_after": 225,
+          "total_semantic": 47,
+          "total_procedural": 24
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 5,
+          "memories_after": 270,
+          "total_semantic": 55,
+          "total_procedural": 29
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 6,
+          "memories_after": 315,
+          "total_semantic": 60,
+          "total_procedural": 35
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 4,
+          "concepts_extracted": 6,
+          "procedures_learned": 3,
+          "memories_after": 356,
+          "total_semantic": 66,
+          "total_procedural": 38
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 401,
+          "memories_forgotten": 10,
+          "concepts_extracted": 5,
+          "procedures_learned": 3,
+          "memories_after": 391,
+          "total_semantic": 71,
+          "total_procedural": 41
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 436,
+          "memories_forgotten": 13,
+          "concepts_extracted": 4,
+          "procedures_learned": 5,
+          "memories_after": 423,
+          "total_semantic": 75,
+          "total_procedural": 46
+        }
+      ]
+    },
+    {
+      "seed": 47,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.94,
+      "avg_retrieval_score": 0.9441712129328066,
+      "final_memory_count": 541,
+      "final_episodic": 421,
+      "final_semantic": 75,
+      "final_procedural": 45,
+      "session_success_rates": [
+        0.8,
+        0.8666666666666667,
+        0.8,
+        0.8666666666666667,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.8,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 16,
+          "procedures_learned": 11,
+          "memories_after": 45,
+          "total_semantic": 16,
+          "total_procedural": 11
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 9,
+          "procedures_learned": 6,
+          "memories_after": 90,
+          "total_semantic": 25,
+          "total_procedural": 17
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 3,
+          "memories_after": 135,
+          "total_semantic": 35,
+          "total_procedural": 20
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 11,
+          "procedures_learned": 3,
+          "memories_after": 180,
+          "total_semantic": 46,
+          "total_procedural": 23
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 2,
+          "memories_after": 225,
+          "total_semantic": 52,
+          "total_procedural": 25
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 2,
+          "procedures_learned": 5,
+          "memories_after": 270,
+          "total_semantic": 54,
+          "total_procedural": 30
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 2,
+          "memories_after": 315,
+          "total_semantic": 64,
+          "total_procedural": 32
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 4,
+          "memories_after": 360,
+          "total_semantic": 69,
+          "total_procedural": 36
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 405,
+          "memories_forgotten": 15,
+          "concepts_extracted": 3,
+          "procedures_learned": 4,
+          "memories_after": 390,
+          "total_semantic": 72,
+          "total_procedural": 40
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 435,
+          "memories_forgotten": 14,
+          "concepts_extracted": 3,
+          "procedures_learned": 5,
+          "memories_after": 421,
+          "total_semantic": 75,
+          "total_procedural": 45
+        }
+      ]
+    },
+    {
+      "seed": 48,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9288888888888889,
+      "avg_retrieval_score": 0.9424146610821699,
+      "final_memory_count": 545,
+      "final_episodic": 414,
+      "final_semantic": 78,
+      "final_procedural": 53,
+      "session_success_rates": [
+        0.8666666666666667,
+        0.7333333333333333,
+        0.8,
+        0.8,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 16,
+          "procedures_learned": 7,
+          "memories_after": 45,
+          "total_semantic": 16,
+          "total_procedural": 7
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 10,
+          "memories_after": 90,
+          "total_semantic": 26,
+          "total_procedural": 17
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 5,
+          "memories_after": 135,
+          "total_semantic": 32,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 3,
+          "memories_after": 180,
+          "total_semantic": 38,
+          "total_procedural": 25
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 4,
+          "memories_after": 225,
+          "total_semantic": 45,
+          "total_procedural": 29
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 4,
+          "memories_after": 270,
+          "total_semantic": 52,
+          "total_procedural": 33
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 0,
+          "memories_after": 315,
+          "total_semantic": 62,
+          "total_procedural": 33
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 4,
+          "concepts_extracted": 6,
+          "procedures_learned": 5,
+          "memories_after": 356,
+          "total_semantic": 68,
+          "total_procedural": 38
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 401,
+          "memories_forgotten": 10,
+          "concepts_extracted": 4,
+          "procedures_learned": 9,
+          "memories_after": 391,
+          "total_semantic": 72,
+          "total_procedural": 47
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 436,
+          "memories_forgotten": 22,
+          "concepts_extracted": 6,
+          "procedures_learned": 6,
+          "memories_after": 414,
+          "total_semantic": 78,
+          "total_procedural": 53
+        }
+      ]
+    },
+    {
+      "seed": 49,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9222222222222223,
+      "avg_retrieval_score": 0.9394234110474058,
+      "final_memory_count": 540,
+      "final_episodic": 413,
+      "final_semantic": 75,
+      "final_procedural": 52,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.8666666666666667,
+        0.8,
+        0.9333333333333333,
+        1.0,
+        0.8,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.8,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8,
+        0.9333333333333333,
+        1.0
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 19,
+          "procedures_learned": 6,
+          "memories_after": 45,
+          "total_semantic": 19,
+          "total_procedural": 6
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 9,
+          "memories_after": 90,
+          "total_semantic": 24,
+          "total_procedural": 15
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 4,
+          "procedures_learned": 7,
+          "memories_after": 135,
+          "total_semantic": 28,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 12,
+          "procedures_learned": 2,
+          "memories_after": 180,
+          "total_semantic": 40,
+          "total_procedural": 24
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 4,
+          "memories_after": 225,
+          "total_semantic": 45,
+          "total_procedural": 28
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 5,
+          "memories_after": 270,
+          "total_semantic": 52,
+          "total_procedural": 33
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 2,
+          "memories_after": 315,
+          "total_semantic": 59,
+          "total_procedural": 35
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 4,
+          "concepts_extracted": 9,
+          "procedures_learned": 4,
+          "memories_after": 356,
+          "total_semantic": 68,
+          "total_procedural": 39
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 401,
+          "memories_forgotten": 13,
+          "concepts_extracted": 4,
+          "procedures_learned": 6,
+          "memories_after": 388,
+          "total_semantic": 72,
+          "total_procedural": 45
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 433,
+          "memories_forgotten": 20,
+          "concepts_extracted": 3,
+          "procedures_learned": 7,
+          "memories_after": 413,
+          "total_semantic": 75,
+          "total_procedural": 52
+        }
+      ]
+    },
+    {
+      "seed": 50,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9133333333333333,
+      "avg_retrieval_score": 0.9341126664716844,
+      "final_memory_count": 561,
+      "final_episodic": 427,
+      "final_semantic": 80,
+      "final_procedural": 54,
+      "session_success_rates": [
+        0.6666666666666666,
+        0.6666666666666666,
+        0.7333333333333333,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.8,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.8666666666666667,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.8,
+        0.8666666666666667,
+        1.0
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 19,
+          "procedures_learned": 6,
+          "memories_after": 45,
+          "total_semantic": 19,
+          "total_procedural": 6
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 8,
+          "memories_after": 90,
+          "total_semantic": 24,
+          "total_procedural": 14
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 8,
+          "memories_after": 135,
+          "total_semantic": 32,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 1,
+          "memories_after": 180,
+          "total_semantic": 39,
+          "total_procedural": 23
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 6,
+          "procedures_learned": 3,
+          "memories_after": 225,
+          "total_semantic": 45,
+          "total_procedural": 26
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 11,
+          "procedures_learned": 2,
+          "memories_after": 270,
+          "total_semantic": 56,
+          "total_procedural": 28
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 6,
+          "memories_after": 315,
+          "total_semantic": 66,
+          "total_procedural": 34
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 2,
+          "concepts_extracted": 4,
+          "procedures_learned": 7,
+          "memories_after": 358,
+          "total_semantic": 70,
+          "total_procedural": 41
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 403,
+          "memories_forgotten": 10,
+          "concepts_extracted": 4,
+          "procedures_learned": 8,
+          "memories_after": 393,
+          "total_semantic": 74,
+          "total_procedural": 49
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 438,
+          "memories_forgotten": 11,
+          "concepts_extracted": 6,
+          "procedures_learned": 5,
+          "memories_after": 427,
+          "total_semantic": 80,
+          "total_procedural": 54
+        }
+      ]
+    },
+    {
+      "seed": 51,
+      "agent_type": "ConsolidationAgent",
+      "overall_success_rate": 0.9222222222222223,
+      "avg_retrieval_score": 0.9332543411873359,
+      "final_memory_count": 549,
+      "final_episodic": 416,
+      "final_semantic": 81,
+      "final_procedural": 52,
+      "session_success_rates": [
+        0.8,
+        0.8666666666666667,
+        0.8,
+        0.8666666666666667,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        1.0,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333,
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667,
+        1.0,
+        0.8666666666666667,
+        0.8666666666666667
+      ],
+      "consolidation_stats": [
+        {
+          "consolidated": true,
+          "cycle": 1,
+          "memories_before": 45,
+          "memories_forgotten": 0,
+          "concepts_extracted": 17,
+          "procedures_learned": 8,
+          "memories_after": 45,
+          "total_semantic": 17,
+          "total_procedural": 8
+        },
+        {
+          "consolidated": true,
+          "cycle": 2,
+          "memories_before": 90,
+          "memories_forgotten": 0,
+          "concepts_extracted": 8,
+          "procedures_learned": 7,
+          "memories_after": 90,
+          "total_semantic": 25,
+          "total_procedural": 15
+        },
+        {
+          "consolidated": true,
+          "cycle": 3,
+          "memories_before": 135,
+          "memories_forgotten": 0,
+          "concepts_extracted": 7,
+          "procedures_learned": 7,
+          "memories_after": 135,
+          "total_semantic": 32,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 4,
+          "memories_before": 180,
+          "memories_forgotten": 0,
+          "concepts_extracted": 10,
+          "procedures_learned": 0,
+          "memories_after": 180,
+          "total_semantic": 42,
+          "total_procedural": 22
+        },
+        {
+          "consolidated": true,
+          "cycle": 5,
+          "memories_before": 225,
+          "memories_forgotten": 0,
+          "concepts_extracted": 4,
+          "procedures_learned": 2,
+          "memories_after": 225,
+          "total_semantic": 46,
+          "total_procedural": 24
+        },
+        {
+          "consolidated": true,
+          "cycle": 6,
+          "memories_before": 270,
+          "memories_forgotten": 0,
+          "concepts_extracted": 14,
+          "procedures_learned": 4,
+          "memories_after": 270,
+          "total_semantic": 60,
+          "total_procedural": 28
+        },
+        {
+          "consolidated": true,
+          "cycle": 7,
+          "memories_before": 315,
+          "memories_forgotten": 0,
+          "concepts_extracted": 5,
+          "procedures_learned": 7,
+          "memories_after": 315,
+          "total_semantic": 65,
+          "total_procedural": 35
+        },
+        {
+          "consolidated": true,
+          "cycle": 8,
+          "memories_before": 360,
+          "memories_forgotten": 3,
+          "concepts_extracted": 7,
+          "procedures_learned": 3,
+          "memories_after": 357,
+          "total_semantic": 72,
+          "total_procedural": 38
+        },
+        {
+          "consolidated": true,
+          "cycle": 9,
+          "memories_before": 402,
+          "memories_forgotten": 12,
+          "concepts_extracted": 7,
+          "procedures_learned": 7,
+          "memories_after": 390,
+          "total_semantic": 79,
+          "total_procedural": 45
+        },
+        {
+          "consolidated": true,
+          "cycle": 10,
+          "memories_before": 435,
+          "memories_forgotten": 19,
+          "concepts_extracted": 2,
+          "procedures_learned": 7,
+          "memories_after": 416,
+          "total_semantic": 81,
+          "total_procedural": 52
+        }
+      ]
+    }
+  ],
+  "flat_stats": {
+    "n": 10,
+    "mean": 0.8275555555555556,
+    "std": 0.01640368656078983,
+    "stderr": 0.005187301155558995,
+    "ci_lower": 0.8158210650906265,
+    "ci_upper": 0.8392900460204847,
+    "min_val": 0.7911111111111111,
+    "max_val": 0.8511111111111112,
+    "median": 0.8288888888888889,
+    "values": [
+      0.8355555555555556,
+      0.8266666666666667,
+      0.8333333333333334,
+      0.8422222222222222,
+      0.8511111111111112,
+      0.8244444444444444,
+      0.8266666666666667,
+      0.8133333333333334,
+      0.7911111111111111,
+      0.8311111111111111
+    ]
+  },
+  "consolidation_stats": {
+    "n": 10,
+    "mean": 0.9331111111111111,
+    "std": 0.011918792437521685,
+    "stderr": 0.0037690531061358645,
+    "ci_lower": 0.9245849206298884,
+    "ci_upper": 0.9416373015923338,
+    "min_val": 0.9133333333333333,
+    "max_val": 0.9511111111111111,
+    "median": 0.9344444444444444,
+    "values": [
+      0.9511111111111111,
+      0.9333333333333333,
+      0.9355555555555556,
+      0.9355555555555556,
+      0.9488888888888889,
+      0.94,
+      0.9288888888888889,
+      0.9222222222222223,
+      0.9133333333333333,
+      0.9222222222222223
+    ]
+  },
+  "hypothesis_test": {
+    "test_name": "Welch's t-test",
+    "statistic": 16.462166809799626,
+    "p_value": 1.224046854421705e-11,
+    "effect_size": 7.362104808730563,
+    "effect_interpretation": "large",
+    "is_significant": "True",
+    "confidence_level": 0.95
+  },
+  "summary": {
+    "absolute_improvement": 0.10555555555555551,
+    "relative_improvement_pct": 12.755102040816322,
+    "effect_size": 7.362104808730563,
+    "effect_interpretation": "large",
+    "p_value": 1.224046854421705e-11,
+    "is_significant": "True",
+    "winner": "consolidation"
+  }
+}

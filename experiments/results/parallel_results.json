@@ -1,0 +1,27 @@
+{
+  "analysis": {
+    "flat_memory": {
+      "mean_success_rate": 0.88,
+      "std_success_rate": 0.043204937989385774,
+      "mean_retrieval_time_ms": 7.987790107727051,
+      "num_runs": 3
+    },
+    "consolidation": {
+      "mean_success_rate": 0.8866666666666667,
+      "std_success_rate": 0.024944382578492966,
+      "mean_retrieval_time_ms": 8.789165814717611,
+      "num_runs": 3
+    },
+    "comparison": {
+      "success_improvement": 0.00666666666666671,
+      "winner": "consolidation"
+    }
+  },
+  "timestamp": "2025-11-26T19:30:31.252297",
+  "config": {
+    "num_seeds": 3,
+    "num_sessions": 10,
+    "tasks_per_session": 5,
+    "embedding_server": "http://192.168.1.186:11434"
+  }
+}

@@ -1,0 +1,2046 @@
+{
+  "experiment_id": "exp1_consolidation_rag_only_seed2_seed2",
+  "agent_type": "RAGOnlyAgent",
+  "start_time": "2025-11-26T19:20:20.306406",
+  "end_time": "2025-11-26T19:20:24.066088",
+  "sessions": [
+    {
+      "session_id": 1,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.7810471566488534,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 2,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 1.040993785153411,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 3,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.9139512417240875,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 4,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.9861266610575644,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 5,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 2,
+      "avg_success_score": 0.4844873824713167,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 6,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 3,
+      "avg_success_score": 0.6747827888514449,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 7,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 3,
+      "avg_success_score": 0.5357182740347801,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 8,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.907197362548126,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 9,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.7323979453810061,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 10,
+      "agent_type": "RAGOnlyAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 3,
+      "avg_success_score": 0.7190994687792356,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    }
+  ],
+  "task_results": [
+    {
+      "task_id": "task_0001",
+      "session_id": 1,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0895654974118698,
+      "execution_time_ms": 0.009298324584960938,
+      "retrieval_results": {
+        "retrieval_time_ms": 0.009298324584960938,
+        "memories_retrieved": 0,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 1,
+        "total_entities": 1,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 166,
+        "embedding_size_bytes": 1536,
+        "avg_entities_per_memory": 1.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.075588"
+    },
+    {
+      "task_id": "task_0002",
+      "session_id": 1,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.7777691958373771,
+      "execution_time_ms": 20.426034927368164,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.426034927368164,
+        "memories_retrieved": 1,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 2,
+        "total_entities": 2,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 332,
+        "embedding_size_bytes": 3072,
+        "avg_entities_per_memory": 1.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.134469"
+    },
+    {
+      "task_id": "task_0003",
+      "session_id": 1,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0339460802880442,
+      "execution_time_ms": 19.144296646118164,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.144296646118164,
+        "memories_retrieved": 2,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 3,
+        "total_entities": 3,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 496,
+        "embedding_size_bytes": 4608,
+        "avg_entities_per_memory": 1.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.193471"
+    },
+    {
+      "task_id": "task_0004",
+      "session_id": 1,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.7539550097069762,
+      "execution_time_ms": 26.86929702758789,
+      "retrieval_results": {
+        "retrieval_time_ms": 26.86929702758789,
+        "memories_retrieved": 3,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 4,
+        "total_entities": 4,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 704,
+        "embedding_size_bytes": 6144,
+        "avg_entities_per_memory": 1.0,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.263640"
+    },
+    {
+      "task_id": "task_0005",
+      "session_id": 1,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 19.747257232666016,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.747257232666016,
+        "memories_retrieved": 4,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 5,
+        "total_entities": 4,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 858,
+        "embedding_size_bytes": 7680,
+        "avg_entities_per_memory": 0.8,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.326747"
+    },
+    {
+      "task_id": "task_0006",
+      "session_id": 2,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.060733888630587,
+      "execution_time_ms": 20.099163055419922,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.099163055419922,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 6,
+        "total_entities": 4,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1028,
+        "embedding_size_bytes": 9216,
+        "avg_entities_per_memory": 0.6666666666666666,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.387135"
+    },
+    {
+      "task_id": "task_0007",
+      "session_id": 2,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0088354094858643,
+      "execution_time_ms": 18.07570457458496,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.07570457458496,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 7,
+        "total_entities": 5,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1184,
+        "embedding_size_bytes": 10752,
+        "avg_entities_per_memory": 0.7142857142857143,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.441494"
+    },
+    {
+      "task_id": "task_0008",
+      "session_id": 2,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9722174035494505,
+      "execution_time_ms": 20.67279815673828,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.67279815673828,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 8,
+        "total_entities": 5,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1363,
+        "embedding_size_bytes": 12288,
+        "avg_entities_per_memory": 0.625,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.499299"
+    },
+    {
+      "task_id": "task_0009",
+      "session_id": 2,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0863693107939736,
+      "execution_time_ms": 20.290374755859375,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.290374755859375,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 9,
+        "total_entities": 5,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1527,
+        "embedding_size_bytes": 13824,
+        "avg_entities_per_memory": 0.5555555555555556,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.557067"
+    },
+    {
+      "task_id": "task_0010",
+      "session_id": 2,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.076812913307179,
+      "execution_time_ms": 18.95451545715332,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.95451545715332,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 10,
+        "total_entities": 5,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1664,
+        "embedding_size_bytes": 15360,
+        "avg_entities_per_memory": 0.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.612327"
+    },
+    {
+      "task_id": "task_0011",
+      "session_id": 3,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.7568964278982379,
+      "execution_time_ms": 21.10433578491211,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.10433578491211,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 11,
+        "total_entities": 5,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1809,
+        "embedding_size_bytes": 16896,
+        "avg_entities_per_memory": 0.45454545454545453,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.672203"
+    },
+    {
+      "task_id": "task_0012",
+      "session_id": 3,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9273394785972934,
+      "execution_time_ms": 20.500659942626953,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.500659942626953,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 12,
+        "total_entities": 5,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 1992,
+        "embedding_size_bytes": 18432,
+        "avg_entities_per_memory": 0.4166666666666667,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.731180"
+    },
+    {
+      "task_id": "task_0013",
+      "session_id": 3,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.002747480086207,
+      "execution_time_ms": 18.27239990234375,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.27239990234375,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 13,
+        "total_entities": 6,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 2123,
+        "embedding_size_bytes": 19968,
+        "avg_entities_per_memory": 0.46153846153846156,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.785825"
+    },
+    {
+      "task_id": "task_0014",
+      "session_id": 3,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0787143073165977,
+      "execution_time_ms": 19.34337615966797,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.34337615966797,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 14,
+        "total_entities": 7,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 2278,
+        "embedding_size_bytes": 21504,
+        "avg_entities_per_memory": 0.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.842912"
+    },
+    {
+      "task_id": "task_0015",
+      "session_id": 3,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.8040585147221013,
+      "execution_time_ms": 21.171092987060547,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.171092987060547,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 15,
+        "total_entities": 7,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 2428,
+        "embedding_size_bytes": 23040,
+        "avg_entities_per_memory": 0.4666666666666667,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.902604"
+    },
+    {
+      "task_id": "task_0016",
+      "session_id": 4,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9707573955683207,
+      "execution_time_ms": 19.966840744018555,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.966840744018555,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 16,
+        "total_entities": 8,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 2582,
+        "embedding_size_bytes": 24576,
+        "avg_entities_per_memory": 0.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:21.961106"
+    },
+    {
+      "task_id": "task_0017",
+      "session_id": 4,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.8931806921808183,
+      "execution_time_ms": 21.469593048095703,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.469593048095703,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 0.8500000000000001,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 17,
+        "total_entities": 8,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 2754,
+        "embedding_size_bytes": 26112,
+        "avg_entities_per_memory": 0.47058823529411764,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.023275"
+    },
+    {
+      "task_id": "task_0018",
+      "session_id": 4,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0309821956311997,
+      "execution_time_ms": 18.80168914794922,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.80168914794922,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 18,
+        "total_entities": 9,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 2904,
+        "embedding_size_bytes": 27648,
+        "avg_entities_per_memory": 0.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.079326"
+    },
+    {
+      "task_id": "task_0019",
+      "session_id": 4,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9764697729770228,
+      "execution_time_ms": 19.689559936523438,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.689559936523438,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 19,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 3066,
+        "embedding_size_bytes": 29184,
+        "avg_entities_per_memory": 0.5263157894736842,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.134886"
+    },
+    {
+      "task_id": "task_0020",
+      "session_id": 4,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0592432489304606,
+      "execution_time_ms": 19.556760787963867,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.556760787963867,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 20,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 3226,
+        "embedding_size_bytes": 30720,
+        "avg_entities_per_memory": 0.5,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.191942"
+    },
+    {
+      "task_id": "task_0021",
+      "session_id": 5,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 20.11847496032715,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.11847496032715,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 21,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 3395,
+        "embedding_size_bytes": 32256,
+        "avg_entities_per_memory": 0.47619047619047616,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.250377"
+    },
+    {
+      "task_id": "task_0022",
+      "session_id": 5,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.5748473724814978,
+      "execution_time_ms": 19.90342140197754,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.90342140197754,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 22,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 3531,
+        "embedding_size_bytes": 33792,
+        "avg_entities_per_memory": 0.45454545454545453,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.307046"
+    },
+    {
+      "task_id": "task_0023",
+      "session_id": 5,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.8975895398750854,
+      "execution_time_ms": 18.96047592163086,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.96047592163086,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 23,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 3664,
+        "embedding_size_bytes": 35328,
+        "avg_entities_per_memory": 0.43478260869565216,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.361580"
+    },
+    {
+      "task_id": "task_0024",
+      "session_id": 5,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.45,
+      "execution_time_ms": 25.5434513092041,
+      "retrieval_results": {
+        "retrieval_time_ms": 25.5434513092041,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 24,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 3877,
+        "embedding_size_bytes": 36864,
+        "avg_entities_per_memory": 0.4166666666666667,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.432298"
+    },
+    {
+      "task_id": "task_0025",
+      "session_id": 5,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 20.747900009155273,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.747900009155273,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 25,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 4052,
+        "embedding_size_bytes": 38400,
+        "avg_entities_per_memory": 0.4,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.492057"
+    },
+    {
+      "task_id": "task_0026",
+      "session_id": 6,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.275,
+      "execution_time_ms": 19.449710845947266,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.449710845947266,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 26,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 4194,
+        "embedding_size_bytes": 39936,
+        "avg_entities_per_memory": 0.38461538461538464,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.549324"
+    },
+    {
+      "task_id": "task_0027",
+      "session_id": 6,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9823251080801084,
+      "execution_time_ms": 19.428730010986328,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.428730010986328,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 27,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 4339,
+        "embedding_size_bytes": 41472,
+        "avg_entities_per_memory": 0.37037037037037035,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.605889"
+    },
+    {
+      "task_id": "task_0028",
+      "session_id": 6,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.35,
+      "execution_time_ms": 20.189762115478516,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.189762115478516,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.7,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 28,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 4493,
+        "embedding_size_bytes": 43008,
+        "avg_entities_per_memory": 0.35714285714285715,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.662678"
+    },
+    {
+      "task_id": "task_0029",
+      "session_id": 6,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.7727121598450186,
+      "execution_time_ms": 20.53213119506836,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.53213119506836,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.75,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 29,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 4649,
+        "embedding_size_bytes": 44544,
+        "avg_entities_per_memory": 0.3448275862068966,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.720360"
+    },
+    {
+      "task_id": "task_0030",
+      "session_id": 6,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9938766763320975,
+      "execution_time_ms": 20.203351974487305,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.203351974487305,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 30,
+        "total_entities": 10,
+        "total_relationships": 0,
+        "entity_types": [
+          "concept"
+        ],
+        "total_content_chars": 4794,
+        "embedding_size_bytes": 46080,
+        "avg_entities_per_memory": 0.3333333333333333,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.778559"
+    },
+    {
+      "task_id": "task_0031",
+      "session_id": 7,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.5184231822366008,
+      "execution_time_ms": 17.920255661010742,
+      "retrieval_results": {
+        "retrieval_time_ms": 17.920255661010742,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 31,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 4942,
+        "embedding_size_bytes": 47616,
+        "avg_entities_per_memory": 0.3548387096774194,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.832356"
+    },
+    {
+      "task_id": "task_0032",
+      "session_id": 7,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9198771951938448,
+      "execution_time_ms": 17.604351043701172,
+      "retrieval_results": {
+        "retrieval_time_ms": 17.604351043701172,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 32,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 5094,
+        "embedding_size_bytes": 49152,
+        "avg_entities_per_memory": 0.34375,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.883317"
+    },
+    {
+      "task_id": "task_0033",
+      "session_id": 7,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.45,
+      "execution_time_ms": 19.45042610168457,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.45042610168457,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 33,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 5237,
+        "embedding_size_bytes": 50688,
+        "avg_entities_per_memory": 0.3333333333333333,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:22.938293"
+    },
+    {
+      "task_id": "task_0034",
+      "session_id": 7,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.275,
+      "execution_time_ms": 26.151418685913086,
+      "retrieval_results": {
+        "retrieval_time_ms": 26.151418685913086,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 34,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 5450,
+        "embedding_size_bytes": 52224,
+        "avg_entities_per_memory": 0.3235294117647059,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.011901"
+    },
+    {
+      "task_id": "task_0035",
+      "session_id": 7,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.515290992743455,
+      "execution_time_ms": 18.726348876953125,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.726348876953125,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 35,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 5597,
+        "embedding_size_bytes": 53760,
+        "avg_entities_per_memory": 0.3142857142857143,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.068562"
+    },
+    {
+      "task_id": "task_0036",
+      "session_id": 8,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0750982342896476,
+      "execution_time_ms": 20.271778106689453,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.271778106689453,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 36,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 5731,
+        "embedding_size_bytes": 55296,
+        "avg_entities_per_memory": 0.3055555555555556,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.127209"
+    },
+    {
+      "task_id": "task_0037",
+      "session_id": 8,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9272999791114673,
+      "execution_time_ms": 19.41061019897461,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.41061019897461,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 37,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 5876,
+        "embedding_size_bytes": 56832,
+        "avg_entities_per_memory": 0.2972972972972973,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.187782"
+    },
+    {
+      "task_id": "task_0038",
+      "session_id": 8,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.5181526832565212,
+      "execution_time_ms": 20.433664321899414,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.433664321899414,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 38,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 6016,
+        "embedding_size_bytes": 58368,
+        "avg_entities_per_memory": 0.2894736842105263,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.244892"
+    },
+    {
+      "task_id": "task_0039",
+      "session_id": 8,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.043392219780995,
+      "execution_time_ms": 26.411056518554688,
+      "retrieval_results": {
+        "retrieval_time_ms": 26.411056518554688,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 39,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 6236,
+        "embedding_size_bytes": 59904,
+        "avg_entities_per_memory": 0.28205128205128205,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.315997"
+    },
+    {
+      "task_id": "task_0040",
+      "session_id": 8,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9720436963019982,
+      "execution_time_ms": 27.91142463684082,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.91142463684082,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.1,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 40,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 6451,
+        "embedding_size_bytes": 61440,
+        "avg_entities_per_memory": 0.275,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.389590"
+    },
+    {
+      "task_id": "task_0041",
+      "session_id": 9,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0909124330691495,
+      "execution_time_ms": 21.280288696289062,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.280288696289062,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.15000000000000002,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 41,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 6634,
+        "embedding_size_bytes": 62976,
+        "avg_entities_per_memory": 0.2682926829268293,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.451932"
+    },
+    {
+      "task_id": "task_0042",
+      "session_id": 9,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.6502356040666802,
+      "execution_time_ms": 20.754337310791016,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.754337310791016,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.1,
+        "final_probability": 0.6,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 42,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 6798,
+        "embedding_size_bytes": 64512,
+        "avg_entities_per_memory": 0.2619047619047619,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.511151"
+    },
+    {
+      "task_id": "task_0043",
+      "session_id": 9,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.5313354387402276,
+      "execution_time_ms": 21.152019500732422,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.152019500732422,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 43,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 6974,
+        "embedding_size_bytes": 66048,
+        "avg_entities_per_memory": 0.2558139534883721,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.569923"
+    },
+    {
+      "task_id": "task_0044",
+      "session_id": 9,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.7534637116173232,
+      "execution_time_ms": 18.5239315032959,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.5239315032959,
+        "memories_retrieved": 5,
+        "context_required": 6,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.75,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 44,
+        "total_entities": 11,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 7136,
+        "embedding_size_bytes": 67584,
+        "avg_entities_per_memory": 0.25,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.624018"
+    },
+    {
+      "task_id": "task_0045",
+      "session_id": 9,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.6360425394116499,
+      "execution_time_ms": 20.56598663330078,
+      "retrieval_results": {
+        "retrieval_time_ms": 20.56598663330078,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0,
+        "final_probability": 0.7,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 45,
+        "total_entities": 12,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 7315,
+        "embedding_size_bytes": 69120,
+        "avg_entities_per_memory": 0.26666666666666666,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.682304"
+    },
+    {
+      "task_id": "task_0046",
+      "session_id": 10,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.4,
+      "execution_time_ms": 34.78884696960449,
+      "retrieval_results": {
+        "retrieval_time_ms": 34.78884696960449,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 46,
+        "total_entities": 12,
+        "total_relationships": 2,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 7522,
+        "embedding_size_bytes": 70656,
+        "avg_entities_per_memory": 0.2608695652173913,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.773646"
+    },
+    {
+      "task_id": "task_0047",
+      "session_id": 10,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 1.0230478966649716,
+      "execution_time_ms": 34.53850746154785,
+      "retrieval_results": {
+        "retrieval_time_ms": 34.53850746154785,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.1,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 47,
+        "total_entities": 12,
+        "total_relationships": 4,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 7670,
+        "embedding_size_bytes": 72192,
+        "avg_entities_per_memory": 0.2553191489361702,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.853234"
+    },
+    {
+      "task_id": "task_0048",
+      "session_id": 10,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.9572053273576704,
+      "execution_time_ms": 22.464275360107422,
+      "retrieval_results": {
+        "retrieval_time_ms": 22.464275360107422,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 48,
+        "total_entities": 12,
+        "total_relationships": 4,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 7838,
+        "embedding_size_bytes": 73728,
+        "avg_entities_per_memory": 0.25,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.914559"
+    },
+    {
+      "task_id": "task_0049",
+      "session_id": 10,
+      "agent_type": "RAGOnlyAgent",
+      "success": true,
+      "success_score": 0.940244119873536,
+      "execution_time_ms": 27.3892879486084,
+      "retrieval_results": {
+        "retrieval_time_ms": 27.3892879486084,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 49,
+        "total_entities": 12,
+        "total_relationships": 4,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 8050,
+        "embedding_size_bytes": 75264,
+        "avg_entities_per_memory": 0.24489795918367346,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:23.987080"
+    },
+    {
+      "task_id": "task_0050",
+      "session_id": 10,
+      "agent_type": "RAGOnlyAgent",
+      "success": false,
+      "success_score": 0.275,
+      "execution_time_ms": 21.547555923461914,
+      "retrieval_results": {
+        "retrieval_time_ms": 21.547555923461914,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "rag_only",
+        "total_memories": 50,
+        "total_entities": 12,
+        "total_relationships": 4,
+        "entity_types": [
+          "concept",
+          "class"
+        ],
+        "total_content_chars": 8221,
+        "embedding_size_bytes": 76800,
+        "avg_entities_per_memory": 0.24,
+        "consolidation_enabled": false,
+        "forgetting_enabled": false,
+        "tiers": [
+          "rag"
+        ]
+      },
+      "timestamp": "2025-11-26T19:20:24.048491"
+    }
+  ],
+  "overall_success_rate": 0.8,
+  "avg_retrieval_precision": 0.0,
+  "avg_retrieval_latency_ms": 20.930776596069336,
+  "total_memory_size": 0,
+  "learning_curve_slope": -0.023711510423038956,
+  "cross_session_coherence": 1.0
+}

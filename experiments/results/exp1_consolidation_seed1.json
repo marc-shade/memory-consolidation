@@ -1,0 +1,2326 @@
+{
+  "experiment_id": "exp1_consolidation_consolidation_seed1_seed1",
+  "agent_type": "ConsolidationAgent",
+  "start_time": "2025-11-26T19:18:13.154265",
+  "end_time": "2025-11-26T19:19:11.236916",
+  "sessions": [
+    {
+      "session_id": 1,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.8325914815618054,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 2,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 1.0177960874286258,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 3,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.9621678708534744,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 4,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.847633177437028,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 5,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.6686875159637656,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 6,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.7625238805284036,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 7,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.666756275352769,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 8,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 5,
+      "avg_success_score": 0.894429261343474,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 9,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 1,
+      "avg_success_score": 0.4361189993633537,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    },
+    {
+      "session_id": 10,
+      "agent_type": "ConsolidationAgent",
+      "tasks_completed": 5,
+      "tasks_successful": 4,
+      "avg_success_score": 0.8067728661100739,
+      "total_retrieval_time_ms": 0,
+      "avg_retrieval_precision": 0.0,
+      "memory_size_bytes": 0,
+      "coherence_score": 1.0
+    }
+  ],
+  "task_results": [
+    {
+      "task_id": "task_0001",
+      "session_id": 1,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0694867473874465,
+      "execution_time_ms": 2275.102138519287,
+      "retrieval_results": {
+        "retrieval_time_ms": 2275.102138519287,
+        "memories_retrieved": 0,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 1,
+          "episodic": 0,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 1,
+        "causal_links": 0,
+        "total_chars": 166,
+        "avg_episodic_strength": 0,
+        "avg_episodic_salience": 0,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 0,
+        "last_consolidation": "2025-11-26T19:18:13.154015",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.451702"
+    },
+    {
+      "task_id": "task_0002",
+      "session_id": 1,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.7388669925873699,
+      "execution_time_ms": 19.684553146362305,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.684553146362305,
+        "memories_retrieved": 1,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 2,
+          "episodic": 0,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 2,
+        "causal_links": 0,
+        "total_chars": 332,
+        "avg_episodic_strength": 0,
+        "avg_episodic_salience": 0,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 0,
+        "last_consolidation": "2025-11-26T19:18:13.154015",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.507751"
+    },
+    {
+      "task_id": "task_0003",
+      "session_id": 1,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0303185945445525,
+      "execution_time_ms": 18.59569549560547,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.59569549560547,
+        "memories_retrieved": 2,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 3,
+          "episodic": 0,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 3,
+        "causal_links": 0,
+        "total_chars": 496,
+        "avg_episodic_strength": 0,
+        "avg_episodic_salience": 0,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 0,
+        "last_consolidation": "2025-11-26T19:18:13.154015",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.561676"
+    },
+    {
+      "task_id": "task_0004",
+      "session_id": 1,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.7980570650438636,
+      "execution_time_ms": 25.64859390258789,
+      "retrieval_results": {
+        "retrieval_time_ms": 25.64859390258789,
+        "memories_retrieved": 3,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 0,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 4,
+        "causal_links": 0,
+        "total_chars": 704,
+        "avg_episodic_strength": 0,
+        "avg_episodic_salience": 0,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 0,
+        "last_consolidation": "2025-11-26T19:18:13.154015",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.630668"
+    },
+    {
+      "task_id": "task_0005",
+      "session_id": 1,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.5262280082457942,
+      "execution_time_ms": 17.91214942932129,
+      "retrieval_results": {
+        "retrieval_time_ms": 17.91214942932129,
+        "memories_retrieved": 4,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 0
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 0,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 5,
+        "causal_links": 0,
+        "total_chars": 859,
+        "avg_episodic_strength": 0,
+        "avg_episodic_salience": 0,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 0,
+        "last_consolidation": "2025-11-26T19:18:13.154015",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.683231"
+    },
+    {
+      "task_id": "task_0006",
+      "session_id": 2,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0603652733992968,
+      "execution_time_ms": 18.64910125732422,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.64910125732422,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 2,
+          "episodic": 4,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 6,
+        "causal_links": 0,
+        "total_chars": 1029,
+        "avg_episodic_strength": 0.9999999977177976,
+        "avg_episodic_salience": 0.6375,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 1,
+        "last_consolidation": "2025-11-26T19:18:15.696377",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.735984"
+    },
+    {
+      "task_id": "task_0007",
+      "session_id": 2,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0802854915222968,
+      "execution_time_ms": 18.004894256591797,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.004894256591797,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 3,
+          "episodic": 4,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 7,
+        "causal_links": 0,
+        "total_chars": 1185,
+        "avg_episodic_strength": 1.0,
+        "avg_episodic_salience": 0.6375,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 1,
+        "last_consolidation": "2025-11-26T19:18:15.696377",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.788076"
+    },
+    {
+      "task_id": "task_0008",
+      "session_id": 2,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9269183043945897,
+      "execution_time_ms": 19.194364547729492,
+      "retrieval_results": {
+        "retrieval_time_ms": 19.194364547729492,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 4,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 8,
+        "causal_links": 0,
+        "total_chars": 1364,
+        "avg_episodic_strength": 1.0,
+        "avg_episodic_salience": 0.6375,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 1,
+        "last_consolidation": "2025-11-26T19:18:15.696377",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.841745"
+    },
+    {
+      "task_id": "task_0009",
+      "session_id": 2,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9762408475376425,
+      "execution_time_ms": 18.71204376220703,
+      "retrieval_results": {
+        "retrieval_time_ms": 18.71204376220703,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 2
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 4,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 9,
+        "causal_links": 0,
+        "total_chars": 1528,
+        "avg_episodic_strength": 1.0,
+        "avg_episodic_salience": 0.6375,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 1,
+        "last_consolidation": "2025-11-26T19:18:15.696377",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.894583"
+    },
+    {
+      "task_id": "task_0010",
+      "session_id": 2,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0451705202893031,
+      "execution_time_ms": 17.589330673217773,
+      "retrieval_results": {
+        "retrieval_time_ms": 17.589330673217773,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 2
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 4,
+          "semantic": 0,
+          "procedural": 0
+        },
+        "total_memories": 10,
+        "causal_links": 0,
+        "total_chars": 1665,
+        "avg_episodic_strength": 1.0,
+        "avg_episodic_salience": 0.6375,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 1,
+        "last_consolidation": "2025-11-26T19:18:15.696377",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:15.948009"
+    },
+    {
+      "task_id": "task_0011",
+      "session_id": 3,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.8702667230317739,
+      "execution_time_ms": 40.27414321899414,
+      "retrieval_results": {
+        "retrieval_time_ms": 40.27414321899414,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 2,
+          "episodic": 9,
+          "semantic": 0,
+          "procedural": 1
+        },
+        "total_memories": 12,
+        "causal_links": 0,
+        "total_chars": 1810,
+        "avg_episodic_strength": 0.8749995796869636,
+        "avg_episodic_salience": 0.6333333333333333,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 2,
+        "last_consolidation": "2025-11-26T19:18:15.964574",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.025664"
+    },
+    {
+      "task_id": "task_0012",
+      "session_id": 3,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9461733083081969,
+      "execution_time_ms": 40.762901306152344,
+      "retrieval_results": {
+        "retrieval_time_ms": 40.762901306152344,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 3,
+          "episodic": 9,
+          "semantic": 0,
+          "procedural": 1
+        },
+        "total_memories": 13,
+        "causal_links": 0,
+        "total_chars": 1993,
+        "avg_episodic_strength": 0.9166662471373742,
+        "avg_episodic_salience": 0.6333333333333333,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 2,
+        "last_consolidation": "2025-11-26T19:18:15.964574",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.121154"
+    },
+    {
+      "task_id": "task_0013",
+      "session_id": 3,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0904488910582388,
+      "execution_time_ms": 36.20505332946777,
+      "retrieval_results": {
+        "retrieval_time_ms": 36.20505332946777,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 9,
+          "semantic": 0,
+          "procedural": 1
+        },
+        "total_memories": 14,
+        "causal_links": 0,
+        "total_chars": 2124,
+        "avg_episodic_strength": 0.9555551370823269,
+        "avg_episodic_salience": 0.6333333333333333,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 2,
+        "last_consolidation": "2025-11-26T19:18:15.964574",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.210117"
+    },
+    {
+      "task_id": "task_0014",
+      "session_id": 3,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0832539671010588,
+      "execution_time_ms": 38.54203224182129,
+      "retrieval_results": {
+        "retrieval_time_ms": 38.54203224182129,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 9,
+          "semantic": 0,
+          "procedural": 1
+        },
+        "total_memories": 15,
+        "causal_links": 0,
+        "total_chars": 2279,
+        "avg_episodic_strength": 0.9777774446573962,
+        "avg_episodic_salience": 0.6333333333333333,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 2,
+        "last_consolidation": "2025-11-26T19:18:15.964574",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.299730"
+    },
+    {
+      "task_id": "task_0015",
+      "session_id": 3,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.8206964647681039,
+      "execution_time_ms": 34.259796142578125,
+      "retrieval_results": {
+        "retrieval_time_ms": 34.259796142578125,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 9,
+          "semantic": 0,
+          "procedural": 1
+        },
+        "total_memories": 16,
+        "causal_links": 0,
+        "total_chars": 2429,
+        "avg_episodic_strength": 0.9777776729945266,
+        "avg_episodic_salience": 0.6333333333333333,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 2,
+        "last_consolidation": "2025-11-26T19:18:15.964574",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.385742"
+    },
+    {
+      "task_id": "task_0016",
+      "session_id": 4,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9665390370720258,
+      "execution_time_ms": 70.38283348083496,
+      "retrieval_results": {
+        "retrieval_time_ms": 70.38283348083496,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 12,
+          "semantic": 0,
+          "procedural": 3
+        },
+        "total_memories": 19,
+        "causal_links": 0,
+        "total_chars": 2583,
+        "avg_episodic_strength": 0.8354156736667141,
+        "avg_episodic_salience": 0.6375000000000001,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 3,
+        "last_consolidation": "2025-11-26T19:18:16.416197",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.506548"
+    },
+    {
+      "task_id": "task_0017",
+      "session_id": 4,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.42500000000000004,
+      "execution_time_ms": 71.01154327392578,
+      "retrieval_results": {
+        "retrieval_time_ms": 71.01154327392578,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 0.8500000000000001,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 12,
+          "semantic": 0,
+          "procedural": 3
+        },
+        "total_memories": 20,
+        "causal_links": 0,
+        "total_chars": 2754,
+        "avg_episodic_strength": 0.8791660558874316,
+        "avg_episodic_salience": 0.6375000000000001,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 3,
+        "last_consolidation": "2025-11-26T19:18:16.416197",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.665188"
+    },
+    {
+      "task_id": "task_0018",
+      "session_id": 4,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9844213999922831,
+      "execution_time_ms": 70.32895088195801,
+      "retrieval_results": {
+        "retrieval_time_ms": 70.32895088195801,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 12,
+          "semantic": 0,
+          "procedural": 3
+        },
+        "total_memories": 21,
+        "causal_links": 0,
+        "total_chars": 2904,
+        "avg_episodic_strength": 0.8791660558874316,
+        "avg_episodic_salience": 0.6375000000000001,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 3,
+        "last_consolidation": "2025-11-26T19:18:16.416197",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.824133"
+    },
+    {
+      "task_id": "task_0019",
+      "session_id": 4,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.8611486860049107,
+      "execution_time_ms": 70.93930244445801,
+      "retrieval_results": {
+        "retrieval_time_ms": 70.93930244445801,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 12,
+          "semantic": 0,
+          "procedural": 3
+        },
+        "total_memories": 22,
+        "causal_links": 0,
+        "total_chars": 3066,
+        "avg_episodic_strength": 0.8791660558874316,
+        "avg_episodic_salience": 0.6375000000000001,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 3,
+        "last_consolidation": "2025-11-26T19:18:16.416197",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:16.983012"
+    },
+    {
+      "task_id": "task_0020",
+      "session_id": 4,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.00105676411592,
+      "execution_time_ms": 72.01290130615234,
+      "retrieval_results": {
+        "retrieval_time_ms": 72.01290130615234,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 8,
+          "episodic": 12,
+          "semantic": 0,
+          "procedural": 3
+        },
+        "total_memories": 23,
+        "causal_links": 0,
+        "total_chars": 3226,
+        "avg_episodic_strength": 0.9083329676387484,
+        "avg_episodic_salience": 0.6375000000000001,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 3,
+        "last_consolidation": "2025-11-26T19:18:16.416197",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:17.149079"
+    },
+    {
+      "task_id": "task_0021",
+      "session_id": 5,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.5243730655293198,
+      "execution_time_ms": 226.48000717163086,
+      "retrieval_results": {
+        "retrieval_time_ms": 226.48000717163086,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 3,
+          "episodic": 18,
+          "semantic": 10,
+          "procedural": 3
+        },
+        "total_memories": 34,
+        "causal_links": 0,
+        "total_chars": 3396,
+        "avg_episodic_strength": 0.8430500494255209,
+        "avg_episodic_salience": 0.625,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 4,
+        "last_consolidation": "2025-11-26T19:18:17.215689",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:17.462561"
+    },
+    {
+      "task_id": "task_0022",
+      "session_id": 5,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.5140308141736957,
+      "execution_time_ms": 223.9530086517334,
+      "retrieval_results": {
+        "retrieval_time_ms": 223.9530086517334,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 18,
+          "semantic": 10,
+          "procedural": 3
+        },
+        "total_memories": 35,
+        "causal_links": 0,
+        "total_chars": 3532,
+        "avg_episodic_strength": 0.8763837819537308,
+        "avg_episodic_salience": 0.625,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 4,
+        "last_consolidation": "2025-11-26T19:18:17.215689",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:17.925564"
+    },
+    {
+      "task_id": "task_0023",
+      "session_id": 5,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9496507769927939,
+      "execution_time_ms": 268.2332992553711,
+      "retrieval_results": {
+        "retrieval_time_ms": 268.2332992553711,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 18,
+          "semantic": 10,
+          "procedural": 3
+        },
+        "total_memories": 36,
+        "causal_links": 0,
+        "total_chars": 3665,
+        "avg_episodic_strength": 0.9055515420762715,
+        "avg_episodic_salience": 0.625,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 4,
+        "last_consolidation": "2025-11-26T19:18:17.215689",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:18.446832"
+    },
+    {
+      "task_id": "task_0024",
+      "session_id": 5,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.8890130934080214,
+      "execution_time_ms": 368.94917488098145,
+      "retrieval_results": {
+        "retrieval_time_ms": 368.94917488098145,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 18,
+          "semantic": 10,
+          "procedural": 3
+        },
+        "total_memories": 37,
+        "causal_links": 0,
+        "total_chars": 3879,
+        "avg_episodic_strength": 0.9166631651968022,
+        "avg_episodic_salience": 0.625,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 4,
+        "last_consolidation": "2025-11-26T19:18:17.215689",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:19.089744"
+    },
+    {
+      "task_id": "task_0025",
+      "session_id": 5,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.4663698297149974,
+      "execution_time_ms": 238.42263221740723,
+      "retrieval_results": {
+        "retrieval_time_ms": 238.42263221740723,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 18,
+          "semantic": 10,
+          "procedural": 3
+        },
+        "total_memories": 38,
+        "causal_links": 0,
+        "total_chars": 4055,
+        "avg_episodic_strength": 0.9166638456329727,
+        "avg_episodic_salience": 0.625,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 4,
+        "last_consolidation": "2025-11-26T19:18:17.215689",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:19.647113"
+    },
+    {
+      "task_id": "task_0026",
+      "session_id": 6,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.4982532460363598,
+      "execution_time_ms": 298.3813285827637,
+      "retrieval_results": {
+        "retrieval_time_ms": 298.3813285827637,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 22,
+          "semantic": 12,
+          "procedural": 3
+        },
+        "total_memories": 41,
+        "causal_links": 0,
+        "total_chars": 4198,
+        "avg_episodic_strength": 0.8306610938479877,
+        "avg_episodic_salience": 0.6295454545454545,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 5,
+        "last_consolidation": "2025-11-26T19:18:19.915533",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:20.234608"
+    },
+    {
+      "task_id": "task_0027",
+      "session_id": 6,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9626942834032609,
+      "execution_time_ms": 254.9753189086914,
+      "retrieval_results": {
+        "retrieval_time_ms": 254.9753189086914,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 22,
+          "semantic": 12,
+          "procedural": 3
+        },
+        "total_memories": 42,
+        "causal_links": 0,
+        "total_chars": 4343,
+        "avg_episodic_strength": 0.85679745831922,
+        "avg_episodic_salience": 0.6295454545454545,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 5,
+        "last_consolidation": "2025-11-26T19:18:19.915533",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:20.805978"
+    },
+    {
+      "task_id": "task_0028",
+      "session_id": 6,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.685103956092908,
+      "execution_time_ms": 268.1410312652588,
+      "retrieval_results": {
+        "retrieval_time_ms": 268.1410312652588,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.7,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 22,
+          "semantic": 12,
+          "procedural": 3
+        },
+        "total_memories": 43,
+        "causal_links": 0,
+        "total_chars": 4498,
+        "avg_episodic_strength": 0.8658887859981962,
+        "avg_episodic_salience": 0.6295454545454545,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 5,
+        "last_consolidation": "2025-11-26T19:18:19.915533",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:21.356603"
+    },
+    {
+      "task_id": "task_0029",
+      "session_id": 6,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.709040601904031,
+      "execution_time_ms": 261.3866329193115,
+      "retrieval_results": {
+        "retrieval_time_ms": 261.3866329193115,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.75,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 22,
+          "semantic": 12,
+          "procedural": 3
+        },
+        "total_memories": 44,
+        "causal_links": 0,
+        "total_chars": 4654,
+        "avg_episodic_strength": 0.8738455799993098,
+        "avg_episodic_salience": 0.6295454545454545,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 5,
+        "last_consolidation": "2025-11-26T19:18:19.915533",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:21.907273"
+    },
+    {
+      "task_id": "task_0030",
+      "session_id": 6,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9575273152054581,
+      "execution_time_ms": 264.74595069885254,
+      "retrieval_results": {
+        "retrieval_time_ms": 264.74595069885254,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 8,
+          "episodic": 22,
+          "semantic": 12,
+          "procedural": 3
+        },
+        "total_memories": 45,
+        "causal_links": 0,
+        "total_chars": 4799,
+        "avg_episodic_strength": 0.888618548469381,
+        "avg_episodic_salience": 0.6295454545454545,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 5,
+        "last_consolidation": "2025-11-26T19:18:19.915533",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:22.445312"
+    },
+    {
+      "task_id": "task_0031",
+      "session_id": 7,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.4843825891259815,
+      "execution_time_ms": 510.9977722167969,
+      "retrieval_results": {
+        "retrieval_time_ms": 510.9977722167969,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 26,
+          "semantic": 27,
+          "procedural": 4
+        },
+        "total_memories": 62,
+        "causal_links": 0,
+        "total_chars": 4947,
+        "avg_episodic_strength": 0.8288064748708259,
+        "avg_episodic_salience": 0.6307692307692307,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 6,
+        "last_consolidation": "2025-11-26T19:18:22.699247",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:23.229225"
+    },
+    {
+      "task_id": "task_0032",
+      "session_id": 7,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0278534530189865,
+      "execution_time_ms": 552.6449680328369,
+      "retrieval_results": {
+        "retrieval_time_ms": 552.6449680328369,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 26,
+          "semantic": 27,
+          "procedural": 4
+        },
+        "total_memories": 63,
+        "causal_links": 0,
+        "total_chars": 5099,
+        "avg_episodic_strength": 0.8432299189789199,
+        "avg_episodic_salience": 0.6307692307692307,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 6,
+        "last_consolidation": "2025-11-26T19:18:22.699247",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:24.301279"
+    },
+    {
+      "task_id": "task_0033",
+      "session_id": 7,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9822809306628408,
+      "execution_time_ms": 527.9617309570312,
+      "retrieval_results": {
+        "retrieval_time_ms": 527.9617309570312,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.9,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 26,
+          "semantic": 27,
+          "procedural": 4
+        },
+        "total_memories": 64,
+        "causal_links": 0,
+        "total_chars": 5243,
+        "avg_episodic_strength": 0.8720791567516419,
+        "avg_episodic_salience": 0.6307692307692307,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 6,
+        "last_consolidation": "2025-11-26T19:18:22.699247",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:25.358095"
+    },
+    {
+      "task_id": "task_0034",
+      "session_id": 7,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.5892644039560367,
+      "execution_time_ms": 509.8876953125,
+      "retrieval_results": {
+        "retrieval_time_ms": 509.8876953125,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 8,
+          "episodic": 26,
+          "semantic": 27,
+          "procedural": 4
+        },
+        "total_memories": 65,
+        "causal_links": 0,
+        "total_chars": 5457,
+        "avg_episodic_strength": 0.8913138752265297,
+        "avg_episodic_salience": 0.6307692307692307,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 6,
+        "last_consolidation": "2025-11-26T19:18:22.699247",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:26.428239"
+    },
+    {
+      "task_id": "task_0035",
+      "session_id": 7,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 531.2702655792236,
+      "retrieval_results": {
+        "retrieval_time_ms": 531.2702655792236,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 9,
+          "episodic": 26,
+          "semantic": 27,
+          "procedural": 4
+        },
+        "total_memories": 66,
+        "causal_links": 0,
+        "total_chars": 5603,
+        "avg_episodic_strength": 0.9057374379688452,
+        "avg_episodic_salience": 0.6307692307692307,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 6,
+        "last_consolidation": "2025-11-26T19:18:22.699247",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:27.480253"
+    },
+    {
+      "task_id": "task_0036",
+      "session_id": 8,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9410970515401522,
+      "execution_time_ms": 1228.8572788238525,
+      "retrieval_results": {
+        "retrieval_time_ms": 1228.8572788238525,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 31,
+          "semantic": 65,
+          "procedural": 4
+        },
+        "total_memories": 105,
+        "causal_links": 0,
+        "total_chars": 5737,
+        "avg_episodic_strength": 0.8338000143863814,
+        "avg_episodic_salience": 0.6306451612903226,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 7,
+        "last_consolidation": "2025-11-26T19:18:27.981073",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:29.236168"
+    },
+    {
+      "task_id": "task_0037",
+      "session_id": 8,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9729472094327202,
+      "execution_time_ms": 1082.0016860961914,
+      "retrieval_results": {
+        "retrieval_time_ms": 1082.0016860961914,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 31,
+          "semantic": 65,
+          "procedural": 4
+        },
+        "total_memories": 106,
+        "causal_links": 0,
+        "total_chars": 5882,
+        "avg_episodic_strength": 0.8515472393952352,
+        "avg_episodic_salience": 0.6306451612903226,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 7,
+        "last_consolidation": "2025-11-26T19:18:27.981073",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:31.497704"
+    },
+    {
+      "task_id": "task_0038",
+      "session_id": 8,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.5505192514171751,
+      "execution_time_ms": 1099.778413772583,
+      "retrieval_results": {
+        "retrieval_time_ms": 1099.778413772583,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 31,
+          "semantic": 65,
+          "procedural": 4
+        },
+        "total_memories": 107,
+        "causal_links": 0,
+        "total_chars": 6022,
+        "avg_episodic_strength": 0.8563932202024056,
+        "avg_episodic_salience": 0.6306451612903226,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 7,
+        "last_consolidation": "2025-11-26T19:18:27.981073",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:33.718963"
+    },
+    {
+      "task_id": "task_0039",
+      "session_id": 8,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9828849037678211,
+      "execution_time_ms": 1269.3753242492676,
+      "retrieval_results": {
+        "retrieval_time_ms": 1269.3753242492676,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 8,
+          "episodic": 31,
+          "semantic": 65,
+          "procedural": 4
+        },
+        "total_memories": 108,
+        "causal_links": 0,
+        "total_chars": 6242,
+        "avg_episodic_strength": 0.8717182107361954,
+        "avg_episodic_salience": 0.6306451612903226,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 7,
+        "last_consolidation": "2025-11-26T19:18:27.981073",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:36.311974"
+    },
+    {
+      "task_id": "task_0040",
+      "session_id": 8,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.024697890559501,
+      "execution_time_ms": 1293.3895587921143,
+      "retrieval_results": {
+        "retrieval_time_ms": 1293.3895587921143,
+        "memories_retrieved": 5,
+        "context_required": 2,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.1,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 9,
+          "episodic": 31,
+          "semantic": 65,
+          "procedural": 4
+        },
+        "total_memories": 109,
+        "causal_links": 0,
+        "total_chars": 6457,
+        "avg_episodic_strength": 0.8717182107361954,
+        "avg_episodic_salience": 0.6306451612903226,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 7,
+        "last_consolidation": "2025-11-26T19:18:27.981073",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:38.943014"
+    },
+    {
+      "task_id": "task_0041",
+      "session_id": 9,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.9055949968167685,
+      "execution_time_ms": 1389.934778213501,
+      "retrieval_results": {
+        "retrieval_time_ms": 1389.934778213501,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.15000000000000002,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 4,
+          "episodic": 37,
+          "semantic": 69,
+          "procedural": 4
+        },
+        "total_memories": 114,
+        "causal_links": 0,
+        "total_chars": 6640,
+        "avg_episodic_strength": 0.8295685084012329,
+        "avg_episodic_salience": 0.6310810810810811,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 8,
+        "last_consolidation": "2025-11-26T19:18:40.566491",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:41.985278"
+    },
+    {
+      "task_id": "task_0042",
+      "session_id": 9,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.3,
+      "execution_time_ms": 1210.8447551727295,
+      "retrieval_results": {
+        "retrieval_time_ms": 1210.8447551727295,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.1,
+        "final_probability": 0.6,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 5,
+          "episodic": 37,
+          "semantic": 69,
+          "procedural": 4
+        },
+        "total_memories": 115,
+        "causal_links": 0,
+        "total_chars": 6803,
+        "avg_episodic_strength": 0.8342993976310514,
+        "avg_episodic_salience": 0.6310810810810811,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 8,
+        "last_consolidation": "2025-11-26T19:18:40.566491",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:44.540763"
+    },
+    {
+      "task_id": "task_0043",
+      "session_id": 9,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.25,
+      "execution_time_ms": 1225.2686023712158,
+      "retrieval_results": {
+        "retrieval_time_ms": 1225.2686023712158,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.0,
+        "final_probability": 0.5,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 37,
+          "semantic": 69,
+          "procedural": 4
+        },
+        "total_memories": 116,
+        "causal_links": 0,
+        "total_chars": 6978,
+        "avg_episodic_strength": 0.854582691551666,
+        "avg_episodic_salience": 0.6310810810810811,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 8,
+        "last_consolidation": "2025-11-26T19:18:40.566491",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:47.002065"
+    },
+    {
+      "task_id": "task_0044",
+      "session_id": 9,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.375,
+      "execution_time_ms": 1337.9757404327393,
+      "retrieval_results": {
+        "retrieval_time_ms": 1337.9757404327393,
+        "memories_retrieved": 5,
+        "context_required": 6,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.75,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 37,
+          "semantic": 69,
+          "procedural": 4
+        },
+        "total_memories": 117,
+        "causal_links": 0,
+        "total_chars": 7139,
+        "avg_episodic_strength": 0.8606795528410291,
+        "avg_episodic_salience": 0.6310810810810811,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 8,
+        "last_consolidation": "2025-11-26T19:18:40.566491",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:49.553785"
+    },
+    {
+      "task_id": "task_0045",
+      "session_id": 9,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.35,
+      "execution_time_ms": 1267.4155235290527,
+      "retrieval_results": {
+        "retrieval_time_ms": 1267.4155235290527,
+        "memories_retrieved": 5,
+        "context_required": 3,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.7,
+        "context_boost": 0.0,
+        "similar_boost": 0,
+        "final_probability": 0.7,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 8,
+          "episodic": 37,
+          "semantic": 69,
+          "procedural": 4
+        },
+        "total_memories": 118,
+        "causal_links": 0,
+        "total_chars": 7317,
+        "avg_episodic_strength": 0.8606832552749111,
+        "avg_episodic_salience": 0.6310810810810811,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 8,
+        "last_consolidation": "2025-11-26T19:18:40.566491",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:52.070195"
+    },
+    {
+      "task_id": "task_0046",
+      "session_id": 10,
+      "agent_type": "ConsolidationAgent",
+      "success": false,
+      "success_score": 0.4,
+      "execution_time_ms": 1632.4059963226318,
+      "retrieval_results": {
+        "retrieval_time_ms": 1632.4059963226318,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.5,
+        "context_boost": 0.3,
+        "similar_boost": 0.0,
+        "final_probability": 0.8,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 6,
+          "episodic": 40,
+          "semantic": 95,
+          "procedural": 4
+        },
+        "total_memories": 145,
+        "causal_links": 0,
+        "total_chars": 7524,
+        "avg_episodic_strength": 0.8328904882501625,
+        "avg_episodic_salience": 0.6287499999999999,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 9,
+        "last_consolidation": "2025-11-26T19:18:53.274493",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:54.935832"
+    },
+    {
+      "task_id": "task_0047",
+      "session_id": 10,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0736156180749694,
+      "execution_time_ms": 1581.6280841827393,
+      "retrieval_results": {
+        "retrieval_time_ms": 1581.6280841827393,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.9,
+        "context_boost": 0.3,
+        "similar_boost": 0.1,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 5
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 7,
+          "episodic": 40,
+          "semantic": 95,
+          "procedural": 4
+        },
+        "total_memories": 146,
+        "causal_links": 0,
+        "total_chars": 7672,
+        "avg_episodic_strength": 0.8422660853348237,
+        "avg_episodic_salience": 0.6287499999999999,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 9,
+        "last_consolidation": "2025-11-26T19:18:53.274493",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:18:58.120870"
+    },
+    {
+      "task_id": "task_0048",
+      "session_id": 10,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0511173550504398,
+      "execution_time_ms": 1620.8460330963135,
+      "retrieval_results": {
+        "retrieval_time_ms": 1620.8460330963135,
+        "memories_retrieved": 5,
+        "context_required": 0,
+        "context_found": 0,
+        "context_coverage": 1.0,
+        "base_probability": 0.7,
+        "context_boost": 0.3,
+        "similar_boost": 0.05,
+        "final_probability": 1.0,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 8,
+          "episodic": 40,
+          "semantic": 95,
+          "procedural": 4
+        },
+        "total_memories": 147,
+        "causal_links": 0,
+        "total_chars": 7840,
+        "avg_episodic_strength": 0.8510320361958387,
+        "avg_episodic_salience": 0.6287499999999999,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 9,
+        "last_consolidation": "2025-11-26T19:18:53.274493",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:19:01.833804"
+    },
+    {
+      "task_id": "task_0049",
+      "session_id": 10,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 1.0064846657865674,
+      "execution_time_ms": 1775.6578922271729,
+      "retrieval_results": {
+        "retrieval_time_ms": 1775.6578922271729,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.9,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.9500000000000001,
+        "cross_session_retrieved": 4
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 9,
+          "episodic": 40,
+          "semantic": 95,
+          "procedural": 4
+        },
+        "total_memories": 148,
+        "causal_links": 0,
+        "total_chars": 8052,
+        "avg_episodic_strength": 0.8510320361958387,
+        "avg_episodic_salience": 0.6287499999999999,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 9,
+        "last_consolidation": "2025-11-26T19:18:53.274493",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:19:05.186498"
+    },
+    {
+      "task_id": "task_0050",
+      "session_id": 10,
+      "agent_type": "ConsolidationAgent",
+      "success": true,
+      "success_score": 0.5026466916383933,
+      "execution_time_ms": 1730.4632663726807,
+      "retrieval_results": {
+        "retrieval_time_ms": 1730.4632663726807,
+        "memories_retrieved": 5,
+        "context_required": 1,
+        "context_found": 0,
+        "context_coverage": 0.0,
+        "base_probability": 0.5,
+        "context_boost": 0.0,
+        "similar_boost": 0.05,
+        "final_probability": 0.55,
+        "cross_session_retrieved": 3
+      },
+      "memory_stats": {
+        "agent_type": "consolidation",
+        "tiers": {
+          "working": 10,
+          "episodic": 40,
+          "semantic": 95,
+          "procedural": 4
+        },
+        "total_memories": 149,
+        "causal_links": 0,
+        "total_chars": 8224,
+        "avg_episodic_strength": 0.8604091753759244,
+        "avg_episodic_salience": 0.6287499999999999,
+        "consolidation_enabled": true,
+        "forgetting_enabled": true,
+        "consolidations_run": 9,
+        "last_consolidation": "2025-11-26T19:18:53.274493",
+        "config": {
+          "working_memory_ttl": 60,
+          "consolidation_interval": 4,
+          "forgetting_decay_rate": 0.1
+        }
+      },
+      "timestamp": "2025-11-26T19:19:08.764690"
+    }
+  ],
+  "overall_success_rate": 0.86,
+  "avg_retrieval_precision": 0.0,
+  "avg_retrieval_latency_ms": 580.9217214584351,
+  "total_memory_size": 0,
+  "learning_curve_slope": -0.030858148756125022,
+  "cross_session_coherence": 1.0
+}

@@ -1,0 +1,73 @@
+{
+  "agent_types": [
+    "ConsolidationAgent",
+    "FlatMemoryAgent",
+    "RAGOnlyAgent"
+  ],
+  "metrics": {
+    "overall_success_rate": {
+      "values": {
+        "ConsolidationAgent": 0.8133333333333334,
+        "FlatMemoryAgent": 0.8133333333333334,
+        "RAGOnlyAgent": 0.8133333333333334
+      },
+      "best": "ConsolidationAgent",
+      "direction": "higher_is_better"
+    },
+    "avg_retrieval_precision": {
+      "values": {
+        "ConsolidationAgent": 0.0,
+        "FlatMemoryAgent": 0.0,
+        "RAGOnlyAgent": 0.0
+      },
+      "best": "ConsolidationAgent",
+      "direction": "higher_is_better"
+    },
+    "avg_retrieval_latency_ms": {
+      "values": {
+        "ConsolidationAgent": 597.5808668136597,
+        "FlatMemoryAgent": 22.240103085835774,
+        "RAGOnlyAgent": 20.883235931396484
+      },
+      "best": "RAGOnlyAgent",
+      "direction": "lower_is_better"
+    },
+    "total_memory_size": {
+      "values": {
+        "ConsolidationAgent": 0,
+        "FlatMemoryAgent": 85021,
+        "RAGOnlyAgent": 0
+      },
+      "best": "ConsolidationAgent",
+      "direction": "lower_is_better"
+    },
+    "learning_curve_slope": {
+      "values": {
+        "ConsolidationAgent": -0.02287927311797737,
+        "FlatMemoryAgent": -0.02287927311797737,
+        "RAGOnlyAgent": -0.02287927311797737
+      },
+      "best": "ConsolidationAgent",
+      "direction": "higher_is_better"
+    },
+    "cross_session_coherence": {
+      "values": {
+        "ConsolidationAgent": 1.0,
+        "FlatMemoryAgent": 1.0,
+        "RAGOnlyAgent": 1.0
+      },
+      "best": "ConsolidationAgent",
+      "direction": "higher_is_better"
+    }
+  },
+  "overall_scores": {
+    "ConsolidationAgent": 0.3,
+    "FlatMemoryAgent": 0.299764717751248,
+    "RAGOnlyAgent": 0.4
+  },
+  "ranking": [
+    "RAGOnlyAgent",
+    "ConsolidationAgent",
+    "FlatMemoryAgent"
+  ]
+}

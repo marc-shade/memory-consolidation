@@ -1,0 +1,14 @@
+# Core dependencies
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# For experiment framework
+tqdm>=4.65.0
+
+# For statistical analysis
+statsmodels>=0.14.0
+
+# Optional: For enhanced memory system integration
+# qdrant-client>=1.7.0
+# sentence-transformers>=2.2.0

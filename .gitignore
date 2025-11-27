@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (too large for git)
+*.pkl
+*.pickle
+
+# Embedding cache (regenerate as needed)
+.embedding_cache/
+experiments/.embedding_cache/
+
+# LLM response cache (regenerate as needed)
+.llm_cache/
+experiments/.llm_cache/
+
+# Keep PDFs in paper/ but not elsewhere
+*.pdf
+!paper/*.pdf
+!paper/figures/*.pdf
+
+# Temporary files
+*.tmp
+*.temp

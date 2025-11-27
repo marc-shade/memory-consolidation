@@ -1,0 +1,1140 @@
+{
+  "name": "main_experiment",
+  "sessions": [
+    {
+      "id": 1,
+      "tasks": [
+        {
+          "id": "task_0001",
+          "session_id": 1,
+          "task_type": "bug_fix",
+          "difficulty": 2,
+          "title": "Fix null reference in AuthManager",
+          "description": "The AuthManager crashes when user is None. Add proper null checking before accessing user.email.",
+          "context_required": [],
+          "expected_output": "Fixed AuthManager with proper null_check handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "recurrence_pattern": "null_check",
+            "bug_type": "null_check"
+          }
+        },
+        {
+          "id": "task_0002",
+          "session_id": 1,
+          "task_type": "refactor",
+          "difficulty": 3,
+          "title": "Extract method from ConfigManager",
+          "description": "Extract common logic into reusable method in ConfigManager. Maintain all existing functionality.",
+          "context_required": [],
+          "expected_output": "Refactored ConfigManager with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "ConfigManager",
+            "refactor_type": "Extract method from"
+          }
+        },
+        {
+          "id": "task_0003",
+          "session_id": 1,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Add rate limiting to OrderProcessor",
+          "description": "Implement rate limiting functionality in OrderProcessor. Should support basic rate limiting.",
+          "context_required": [],
+          "expected_output": "Implemented rate limiting in OrderProcessor",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "feature": "rate limiting"
+          }
+        },
+        {
+          "id": "task_0004",
+          "session_id": 1,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix off-by-one error in FileHandler",
+          "description": "The FileHandler has an off-by-one error in the loop at line 35. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [],
+          "expected_output": "Fixed FileHandler with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "FileHandler",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        },
+        {
+          "id": "task_0005",
+          "session_id": 1,
+          "task_type": "refactor",
+          "difficulty": 3,
+          "title": "Optimize FileHandler",
+          "description": "Improve performance without changing behavior in FileHandler. Maintain all existing functionality.",
+          "context_required": [
+            "task_0004"
+          ],
+          "expected_output": "Refactored FileHandler with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "FileHandler",
+            "refactor_type": "Optimize"
+          }
+        }
+      ],
+      "session_context": "Session 1: Worked on AuthManager, OrderProcessor, ConfigManager",
+      "duration_minutes": 58
+    },
+    {
+      "id": 2,
+      "tasks": [
+        {
+          "id": "task_0006",
+          "session_id": 2,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix null reference in ConfigManager",
+          "description": "The ConfigManager crashes when user is None. Add proper null checking before accessing user.email.",
+          "context_required": [],
+          "expected_output": "Fixed ConfigManager with proper null_check handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "ConfigManager",
+            "recurrence_pattern": "null_check",
+            "bug_type": "null_check"
+          }
+        },
+        {
+          "id": "task_0007",
+          "session_id": 2,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Extend CacheManager with filtering",
+          "description": "Add filtering support to existing CacheManager. Must maintain backward compatibility.",
+          "context_required": [],
+          "expected_output": "Implemented filtering in CacheManager",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "CacheManager",
+            "feature": "filtering"
+          }
+        },
+        {
+          "id": "task_0008",
+          "session_id": 2,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix race condition in CacheManager",
+          "description": "The CacheManager has a race condition when multiple requests access database_connection. Add proper locking.",
+          "context_required": [
+            "task_0007"
+          ],
+          "expected_output": "Fixed CacheManager with proper race_condition handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "CacheManager",
+            "recurrence_pattern": "race_condition",
+            "bug_type": "race_condition"
+          }
+        },
+        {
+          "id": "task_0009",
+          "session_id": 2,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix memory leak in FileHandler",
+          "description": "The FileHandler leaks memory by not closing database_connection. Ensure cleanup in finally block.",
+          "context_required": [],
+          "expected_output": "Fixed FileHandler with proper memory_leak handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "FileHandler",
+            "recurrence_pattern": "memory_leak",
+            "bug_type": "memory_leak"
+          }
+        },
+        {
+          "id": "task_0010",
+          "session_id": 2,
+          "task_type": "debug",
+          "difficulty": 2,
+          "title": "Debug data corruption in OrderProcessor",
+          "description": "OrderProcessor: Output data occasionally has incorrect values",
+          "context_required": [],
+          "expected_output": "Identified and documented root cause of data corruption",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "debug_scenario": "data corruption"
+          }
+        }
+      ],
+      "session_context": "Session 2: Worked on OrderProcessor, CacheManager, ConfigManager",
+      "duration_minutes": 110
+    },
+    {
+      "id": 3,
+      "tasks": [
+        {
+          "id": "task_0011",
+          "session_id": 3,
+          "task_type": "debug",
+          "difficulty": 3,
+          "title": "Debug intermittent failure in AuthManager",
+          "description": "AuthManager: Sometimes fails with timeout, need to identify trigger",
+          "context_required": [],
+          "expected_output": "Identified and documented root cause of intermittent failure",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "debug_scenario": "intermittent failure"
+          }
+        },
+        {
+          "id": "task_0012",
+          "session_id": 3,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix race condition in OrderProcessor",
+          "description": "The OrderProcessor has a race condition when multiple requests access database_connection. Add proper locking.",
+          "context_required": [],
+          "expected_output": "Fixed OrderProcessor with proper race_condition handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "recurrence_pattern": "race_condition",
+            "bug_type": "race_condition"
+          }
+        },
+        {
+          "id": "task_0013",
+          "session_id": 3,
+          "task_type": "debug",
+          "difficulty": 2,
+          "title": "Debug memory growth in DataLoader",
+          "description": "DataLoader: Memory usage increases over time, needs profiling",
+          "context_required": [],
+          "expected_output": "Identified and documented root cause of memory growth",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "DataLoader",
+            "debug_scenario": "memory growth"
+          }
+        },
+        {
+          "id": "task_0014",
+          "session_id": 3,
+          "task_type": "refactor",
+          "difficulty": 2,
+          "title": "Simplify PaymentHandler",
+          "description": "Reduce complexity using design patterns in PaymentHandler. Maintain all existing functionality.",
+          "context_required": [],
+          "expected_output": "Refactored PaymentHandler with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "PaymentHandler",
+            "refactor_type": "Simplify"
+          }
+        },
+        {
+          "id": "task_0015",
+          "session_id": 3,
+          "task_type": "feature_add",
+          "difficulty": 3,
+          "title": "Add caching to ConfigManager",
+          "description": "Implement caching for ConfigManager to improve performance. Use LRU with TTL of 300s.",
+          "context_required": [],
+          "expected_output": "Implemented filtering in ConfigManager",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": true
+          },
+          "metadata": {
+            "component": "ConfigManager",
+            "feature": "filtering"
+          }
+        }
+      ],
+      "session_context": "Session 3: Worked on DataLoader, AuthManager, ConfigManager",
+      "duration_minutes": 107
+    },
+    {
+      "id": 4,
+      "tasks": [
+        {
+          "id": "task_0016",
+          "session_id": 4,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Extend TaskScheduler with metrics",
+          "description": "Add metrics support to existing TaskScheduler. Must maintain backward compatibility.",
+          "context_required": [],
+          "expected_output": "Implemented metrics in TaskScheduler",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "TaskScheduler",
+            "feature": "metrics"
+          }
+        },
+        {
+          "id": "task_0017",
+          "session_id": 4,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix incorrect type conversion in AuthManager",
+          "description": "The AuthManager incorrectly converts float to int, losing precision. Use Decimal() instead.",
+          "context_required": [],
+          "expected_output": "Fixed AuthManager with proper type_conversion handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "recurrence_pattern": "type_conversion",
+            "bug_type": "type_conversion"
+          }
+        },
+        {
+          "id": "task_0018",
+          "session_id": 4,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Extend UserService with logging",
+          "description": "Add logging support to existing UserService. Must maintain backward compatibility.",
+          "context_required": [],
+          "expected_output": "Implemented logging in UserService",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "UserService",
+            "feature": "logging"
+          }
+        },
+        {
+          "id": "task_0019",
+          "session_id": 4,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Extend DatabaseConnector with logging",
+          "description": "Add logging support to existing DatabaseConnector. Must maintain backward compatibility.",
+          "context_required": [
+            "task_0018"
+          ],
+          "expected_output": "Implemented logging in DatabaseConnector",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "DatabaseConnector",
+            "feature": "logging"
+          }
+        },
+        {
+          "id": "task_0020",
+          "session_id": 4,
+          "task_type": "bug_fix",
+          "difficulty": 2,
+          "title": "Fix memory leak in APIClient",
+          "description": "The APIClient leaks memory by not closing database_connection. Ensure cleanup in finally block.",
+          "context_required": [],
+          "expected_output": "Fixed APIClient with proper memory_leak handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "APIClient",
+            "recurrence_pattern": "memory_leak",
+            "bug_type": "memory_leak"
+          }
+        }
+      ],
+      "session_context": "Session 4: Worked on APIClient, AuthManager, TaskScheduler",
+      "duration_minutes": 48
+    },
+    {
+      "id": 5,
+      "tasks": [
+        {
+          "id": "task_0021",
+          "session_id": 5,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix incorrect type conversion in DataLoader",
+          "description": "The DataLoader incorrectly converts float to int, losing precision. Use Decimal() instead.",
+          "context_required": [
+            "task_0013",
+            "task_0017"
+          ],
+          "expected_output": "Fixed DataLoader with proper type_conversion handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "DataLoader",
+            "recurrence_pattern": "type_conversion",
+            "bug_type": "type_conversion"
+          }
+        },
+        {
+          "id": "task_0022",
+          "session_id": 5,
+          "task_type": "feature_add",
+          "difficulty": 3,
+          "title": "Add validation to CacheManager",
+          "description": "Add input validation for CacheManager. Validate: type, range, format.",
+          "context_required": [
+            "task_0003",
+            "task_0007",
+            "task_0008"
+          ],
+          "expected_output": "Implemented rate limiting in CacheManager",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": true
+          },
+          "metadata": {
+            "component": "CacheManager",
+            "feature": "rate limiting"
+          }
+        },
+        {
+          "id": "task_0023",
+          "session_id": 5,
+          "task_type": "debug",
+          "difficulty": 1,
+          "title": "Debug memory growth in FileHandler",
+          "description": "FileHandler: Memory usage increases over time, needs profiling",
+          "context_required": [
+            "task_0004",
+            "task_0009"
+          ],
+          "expected_output": "Identified and documented root cause of memory growth",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "FileHandler",
+            "debug_scenario": "memory growth"
+          }
+        },
+        {
+          "id": "task_0024",
+          "session_id": 5,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix off-by-one error in PaymentHandler",
+          "description": "The PaymentHandler has an off-by-one error in the loop at line 90. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [
+            "task_0004",
+            "task_0014"
+          ],
+          "expected_output": "Fixed PaymentHandler with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "PaymentHandler",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        },
+        {
+          "id": "task_0025",
+          "session_id": 5,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix memory leak in DatabaseConnector",
+          "description": "The DatabaseConnector leaks memory by not closing database_connection. Ensure cleanup in finally block.",
+          "context_required": [
+            "task_0009",
+            "task_0019",
+            "task_0020"
+          ],
+          "expected_output": "Fixed DatabaseConnector with proper memory_leak handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "DatabaseConnector",
+            "recurrence_pattern": "memory_leak",
+            "bug_type": "memory_leak"
+          }
+        }
+      ],
+      "session_context": "Session 5: Worked on DataLoader, CacheManager, FileHandler",
+      "duration_minutes": 79
+    },
+    {
+      "id": 6,
+      "tasks": [
+        {
+          "id": "task_0026",
+          "session_id": 6,
+          "task_type": "debug",
+          "difficulty": 3,
+          "title": "Debug intermittent failure in DataLoader",
+          "description": "DataLoader: Sometimes fails with timeout, need to identify trigger",
+          "context_required": [
+            "task_0013",
+            "task_0021"
+          ],
+          "expected_output": "Identified and documented root cause of intermittent failure",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "DataLoader",
+            "debug_scenario": "intermittent failure"
+          }
+        },
+        {
+          "id": "task_0027",
+          "session_id": 6,
+          "task_type": "refactor",
+          "difficulty": 1,
+          "title": "Simplify APIClient",
+          "description": "Reduce complexity using design patterns in APIClient. Maintain all existing functionality.",
+          "context_required": [
+            "task_0020"
+          ],
+          "expected_output": "Refactored APIClient with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "APIClient",
+            "refactor_type": "Simplify"
+          }
+        },
+        {
+          "id": "task_0028",
+          "session_id": 6,
+          "task_type": "refactor",
+          "difficulty": 2,
+          "title": "Simplify OrderProcessor",
+          "description": "Reduce complexity using design patterns in OrderProcessor. Maintain all existing functionality.",
+          "context_required": [
+            "task_0003",
+            "task_0010",
+            "task_0012"
+          ],
+          "expected_output": "Refactored OrderProcessor with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "refactor_type": "Simplify"
+          }
+        },
+        {
+          "id": "task_0029",
+          "session_id": 6,
+          "task_type": "feature_add",
+          "difficulty": 2,
+          "title": "Add retry logic to ConfigManager",
+          "description": "Implement retry logic functionality in ConfigManager. Should support basic retry logic.",
+          "context_required": [
+            "task_0002",
+            "task_0006",
+            "task_0015"
+          ],
+          "expected_output": "Implemented retry logic in ConfigManager",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "ConfigManager",
+            "feature": "retry logic"
+          }
+        },
+        {
+          "id": "task_0030",
+          "session_id": 6,
+          "task_type": "debug",
+          "difficulty": 1,
+          "title": "Debug intermittent failure in FileHandler",
+          "description": "FileHandler: Sometimes fails with timeout, need to identify trigger",
+          "context_required": [
+            "task_0004",
+            "task_0009",
+            "task_0023"
+          ],
+          "expected_output": "Identified and documented root cause of intermittent failure",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "FileHandler",
+            "debug_scenario": "intermittent failure"
+          }
+        }
+      ],
+      "session_context": "Session 6: Worked on DataLoader, ConfigManager, FileHandler",
+      "duration_minutes": 110
+    },
+    {
+      "id": 7,
+      "tasks": [
+        {
+          "id": "task_0031",
+          "session_id": 7,
+          "task_type": "refactor",
+          "difficulty": 3,
+          "title": "Split AuthManager",
+          "description": "Split large class into focused components in AuthManager. Maintain all existing functionality.",
+          "context_required": [
+            "task_0001",
+            "task_0011",
+            "task_0017"
+          ],
+          "expected_output": "Refactored AuthManager with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "refactor_type": "Split"
+          }
+        },
+        {
+          "id": "task_0032",
+          "session_id": 7,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Add logging to DatabaseConnector",
+          "description": "Implement logging functionality in DatabaseConnector. Should support basic logging.",
+          "context_required": [
+            "task_0018",
+            "task_0019",
+            "task_0025"
+          ],
+          "expected_output": "Implemented logging in DatabaseConnector",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "DatabaseConnector",
+            "feature": "logging"
+          }
+        },
+        {
+          "id": "task_0033",
+          "session_id": 7,
+          "task_type": "feature_add",
+          "difficulty": 1,
+          "title": "Add caching to DataLoader",
+          "description": "Implement caching for DataLoader to improve performance. Use LRU with TTL of 300s.",
+          "context_required": [
+            "task_0003",
+            "task_0013",
+            "task_0021"
+          ],
+          "expected_output": "Implemented rate limiting in DataLoader",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "DataLoader",
+            "feature": "rate limiting"
+          }
+        },
+        {
+          "id": "task_0034",
+          "session_id": 7,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix off-by-one error in OrderProcessor",
+          "description": "The OrderProcessor has an off-by-one error in the loop at line 72. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [
+            "task_0003",
+            "task_0004",
+            "task_0010"
+          ],
+          "expected_output": "Fixed OrderProcessor with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        },
+        {
+          "id": "task_0035",
+          "session_id": 7,
+          "task_type": "debug",
+          "difficulty": 3,
+          "title": "Debug performance regression in PaymentHandler",
+          "description": "PaymentHandler: Response time increased 10x after recent changes",
+          "context_required": [
+            "task_0024"
+          ],
+          "expected_output": "Identified and documented root cause of performance regression",
+          "evaluation_criteria": {
+            "root_cause_found": true,
+            "fix_identified": true,
+            "steps_documented": true
+          },
+          "metadata": {
+            "component": "PaymentHandler",
+            "debug_scenario": "performance regression"
+          }
+        }
+      ],
+      "session_context": "Session 7: Worked on DataLoader, AuthManager, DatabaseConnector",
+      "duration_minutes": 114
+    },
+    {
+      "id": 8,
+      "tasks": [
+        {
+          "id": "task_0036",
+          "session_id": 8,
+          "task_type": "feature_add",
+          "difficulty": 2,
+          "title": "Add validation to AuthManager",
+          "description": "Add input validation for AuthManager. Validate: type, range, format.",
+          "context_required": [],
+          "expected_output": "Implemented rate limiting in AuthManager",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": false
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "feature": "rate limiting"
+          }
+        },
+        {
+          "id": "task_0037",
+          "session_id": 8,
+          "task_type": "refactor",
+          "difficulty": 2,
+          "title": "Simplify APIClient",
+          "description": "Reduce complexity using design patterns in APIClient. Maintain all existing functionality.",
+          "context_required": [],
+          "expected_output": "Refactored APIClient with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "APIClient",
+            "refactor_type": "Simplify"
+          }
+        },
+        {
+          "id": "task_0038",
+          "session_id": 8,
+          "task_type": "feature_add",
+          "difficulty": 3,
+          "title": "Add validation to OrderProcessor",
+          "description": "Add input validation for OrderProcessor. Validate: type, range, format.",
+          "context_required": [
+            "task_0036"
+          ],
+          "expected_output": "Implemented rate limiting in OrderProcessor",
+          "evaluation_criteria": {
+            "feature_works": true,
+            "backward_compatible": true,
+            "documented": true
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "feature": "rate limiting"
+          }
+        },
+        {
+          "id": "task_0039",
+          "session_id": 8,
+          "task_type": "bug_fix",
+          "difficulty": 2,
+          "title": "Fix off-by-one error in DatabaseConnector",
+          "description": "The DatabaseConnector has an off-by-one error in the loop at line 80. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [],
+          "expected_output": "Fixed DatabaseConnector with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "DatabaseConnector",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        },
+        {
+          "id": "task_0040",
+          "session_id": 8,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix off-by-one error in OrderProcessor",
+          "description": "The OrderProcessor has an off-by-one error in the loop at line 100. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [
+            "task_0038",
+            "task_0039"
+          ],
+          "expected_output": "Fixed OrderProcessor with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        }
+      ],
+      "session_context": "Session 8: Worked on AuthManager, DatabaseConnector, APIClient",
+      "duration_minutes": 110
+    },
+    {
+      "id": 9,
+      "tasks": [
+        {
+          "id": "task_0041",
+          "session_id": 9,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix race condition in OrderProcessor",
+          "description": "The OrderProcessor has a race condition when multiple requests access database_connection. Add proper locking.",
+          "context_required": [
+            "task_0003",
+            "task_0008",
+            "task_0010"
+          ],
+          "expected_output": "Fixed OrderProcessor with proper race_condition handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "OrderProcessor",
+            "recurrence_pattern": "race_condition",
+            "bug_type": "race_condition"
+          }
+        },
+        {
+          "id": "task_0042",
+          "session_id": 9,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix memory leak in AuthManager",
+          "description": "The AuthManager leaks memory by not closing database_connection. Ensure cleanup in finally block.",
+          "context_required": [
+            "task_0001",
+            "task_0009",
+            "task_0011"
+          ],
+          "expected_output": "Fixed AuthManager with proper memory_leak handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "recurrence_pattern": "memory_leak",
+            "bug_type": "memory_leak"
+          }
+        },
+        {
+          "id": "task_0043",
+          "session_id": 9,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix incorrect type conversion in TaskScheduler",
+          "description": "The TaskScheduler incorrectly converts float to int, losing precision. Use Decimal() instead.",
+          "context_required": [
+            "task_0016",
+            "task_0017",
+            "task_0021"
+          ],
+          "expected_output": "Fixed TaskScheduler with proper type_conversion handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "TaskScheduler",
+            "recurrence_pattern": "type_conversion",
+            "bug_type": "type_conversion"
+          }
+        },
+        {
+          "id": "task_0044",
+          "session_id": 9,
+          "task_type": "refactor",
+          "difficulty": 2,
+          "title": "Extract method from AuthManager",
+          "description": "Extract common logic into reusable method in AuthManager. Maintain all existing functionality.",
+          "context_required": [
+            "task_0001",
+            "task_0011",
+            "task_0017",
+            "task_0031",
+            "task_0036",
+            "task_0042"
+          ],
+          "expected_output": "Refactored AuthManager with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "refactor_type": "Extract method from"
+          }
+        },
+        {
+          "id": "task_0045",
+          "session_id": 9,
+          "task_type": "bug_fix",
+          "difficulty": 2,
+          "title": "Fix race condition in MessageQueue",
+          "description": "The MessageQueue has a race condition when multiple requests access database_connection. Add proper locking.",
+          "context_required": [
+            "task_0008",
+            "task_0012",
+            "task_0041"
+          ],
+          "expected_output": "Fixed MessageQueue with proper race_condition handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "MessageQueue",
+            "recurrence_pattern": "race_condition",
+            "bug_type": "race_condition"
+          }
+        }
+      ],
+      "session_context": "Session 9: Worked on AuthManager, MessageQueue, TaskScheduler",
+      "duration_minutes": 89
+    },
+    {
+      "id": 10,
+      "tasks": [
+        {
+          "id": "task_0046",
+          "session_id": 10,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix off-by-one error in UserService",
+          "description": "The UserService has an off-by-one error in the loop at line 61. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [],
+          "expected_output": "Fixed UserService with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "UserService",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        },
+        {
+          "id": "task_0047",
+          "session_id": 10,
+          "task_type": "refactor",
+          "difficulty": 1,
+          "title": "Split AuthManager",
+          "description": "Split large class into focused components in AuthManager. Maintain all existing functionality.",
+          "context_required": [],
+          "expected_output": "Refactored AuthManager with improved structure",
+          "evaluation_criteria": {
+            "tests_pass": true,
+            "complexity_reduced": true,
+            "no_behavior_change": true
+          },
+          "metadata": {
+            "component": "AuthManager",
+            "refactor_type": "Split"
+          }
+        },
+        {
+          "id": "task_0048",
+          "session_id": 10,
+          "task_type": "bug_fix",
+          "difficulty": 2,
+          "title": "Fix null reference in MessageQueue",
+          "description": "The MessageQueue crashes when user is None. Add proper null checking before accessing user.email.",
+          "context_required": [],
+          "expected_output": "Fixed MessageQueue with proper null_check handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "MessageQueue",
+            "recurrence_pattern": "null_check",
+            "bug_type": "null_check"
+          }
+        },
+        {
+          "id": "task_0049",
+          "session_id": 10,
+          "task_type": "bug_fix",
+          "difficulty": 1,
+          "title": "Fix off-by-one error in TaskScheduler",
+          "description": "The TaskScheduler has an off-by-one error in the loop at line 80. The loop should iterate until i < len(items) instead of i <= len(items).",
+          "context_required": [
+            "task_0046"
+          ],
+          "expected_output": "Fixed TaskScheduler with proper off_by_one handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": false
+          },
+          "metadata": {
+            "component": "TaskScheduler",
+            "recurrence_pattern": "off_by_one",
+            "bug_type": "off_by_one"
+          }
+        },
+        {
+          "id": "task_0050",
+          "session_id": 10,
+          "task_type": "bug_fix",
+          "difficulty": 3,
+          "title": "Fix incorrect type conversion in UserService",
+          "description": "The UserService incorrectly converts float to int, losing precision. Use Decimal() instead.",
+          "context_required": [
+            "task_0046"
+          ],
+          "expected_output": "Fixed UserService with proper type_conversion handling",
+          "evaluation_criteria": {
+            "bug_fixed": true,
+            "no_regressions": true,
+            "test_added": true
+          },
+          "metadata": {
+            "component": "UserService",
+            "recurrence_pattern": "type_conversion",
+            "bug_type": "type_conversion"
+          }
+        }
+      ],
+      "session_context": "Session 10: Worked on UserService, AuthManager, MessageQueue",
+      "duration_minutes": 60
+    }
+  ],
+  "total_tasks": 50,
+  "dependency_density": 0.42,
+  "created_at": "2025-11-26T19:17:10.793460"
+}
