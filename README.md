@@ -6,6 +6,7 @@
 This repository contains the code and experiments for our paper on biologically-inspired memory consolidation for AI agents.
 
 ## Key Findings
+<img width="300" height="300" align="right" alt="inspired" src="https://github.com/user-attachments/assets/195b8ff8-3195-4f97-9369-1556212b0892" />
 
 - **Large effect size**: Cohen's d = 2.31, p = 0.007
 - **Consolidation improves performance**: 51.6% vs 49.1% task success
