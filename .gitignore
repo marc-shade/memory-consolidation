@@ -7,6 +7,12 @@ __pycache__/
 venv/
 .venv/
 ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
 
 # LaTeX
 *.aux
@@ -26,10 +32,32 @@ ENV/
 .vscode/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing / Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
 
 # Data files (too large for git)
 *.pkl
